@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Is cosine simulairty a Hoax?"
+---
+
 # RAG - is the cosine simulairty a hoax? Grabbing relevence from text buckets. 
 
 Hypothesis: Randomly sampling chunks of text from a document may provide as much or even more useful context for an LLM than nearest neighbor retrieval, since nearest neighbor methods like Chroma’s Recursive Character Text Splitter sometimes return results that feel random or irrelevant to the query.
