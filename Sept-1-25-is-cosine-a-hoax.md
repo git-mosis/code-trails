@@ -4,18 +4,22 @@ title: "Is cosine simulairty a Hoax?"
 permalink: /Sept-1-25-is-cosine-a-hoax/
 ---
 
-# RAG - is the cosine simulairty a hoax? Grabbing relevence from text buckets. 
+# RAG - is the cosine simulairty a hoax? Grabbing semantic meaning from text via math. 
 
 Hypothesis: Randomly sampling chunks of text from a document may provide as much or even more useful context for an LLM than nearest neighbor retrieval, since nearest neighbor methods like Chroma’s Recursive Character Text Splitter sometimes return results that feel random or irrelevant to the query.
 
 ## Understanding Cosine Similarity in Text Analysis  
 
-When we compare two pieces of writing, we often want a way to measure how alike they are beyond just matching words. This is where cosine similarity comes in. It is a simple yet powerful technique widely used in search engines, recommendation systems, and natural language processing to determine how close two texts are in meaning.  
+When we compare two pieces of writing, we often want a way to measure how alike they are beyond just matching words. This is where cosine similarity comes in. 
 
 ## What is Cosine Similarity?  
 
-Cosine similarity is a method used to measure how similar two pieces of text are by comparing them as vectors in a high dimensional space. Instead of looking at the raw words, each document is turned into a vector that represents the frequency or importance of its terms. Cosine similarity then calculates the angle between these two vectors, with a smaller angle meaning the texts are more alike. Because it focuses on the orientation of the vectors rather than their length, this method is especially useful when comparing documents of different sizes. For example, a short email and a long article might both discuss the same topic, and cosine similarity can still recognize their closeness despite the difference in length.  
+Cosine similarity measures how alike two pieces of text are by converting the text into numbers and placing them on a Cartesian graph. Rather than comparing the raw words, each grouped text is represented as a vector that captures a space location in the graph. You can see this in action via the video below. 
 
+**YouTube link here:** [Cosine Similarity Diagram](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
+[![Cosine Similarity Diagram](./cosine-simularity.png)](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
+
+ 
 ## Why It Matters 
 
 This technique became popular in information retrieval because it allows search engines and recommendation systems to quickly assess how closely a query matches a document. A cosine similarity score ranges from 0 to 1, where 0 means no similarity and 1 means the texts are identical in direction. Its strength lies in its simplicity and efficiency, making it a foundational tool in natural language processing, from clustering documents to detecting duplicate content. By focusing on the angle rather than magnitude, cosine similarity provides a balanced way to compare text regardless of word count.  
