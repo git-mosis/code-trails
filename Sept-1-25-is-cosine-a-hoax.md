@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is cosine simulairty a Hoax?"
-permalink: /code-trails/Sept-1-25-is-cosine-a-hoax/
+permalink: /Sept-1-25-is-cosine-a-hoax/
 ---
 
 # RAG - is the cosine simulairty a hoax? Grabbing relevence from text buckets. 
