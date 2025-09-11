@@ -250,13 +250,13 @@
     </div>
 
     <script>
-      // Usernames and passwords (client-side only, not secure)
+      // Usernames and base64-encoded passwords (client-side only, not secure)
       const users = {
-        "leetuser": "technicmk3!",
-        "honeybun": "notafanofubuntu!",
-        "davidc": "montecarloisfun!",
-        "eric": "letsmakeit!",
-        "davidj": "isogeniesarefun!"
+        "leetuser": "dGVjaG5pY21rMyE=",           
+        "honeybun": "bm90YWZhbm9mdWJ1bnR1IQ==",   
+        "davidc": "bW9udGVjYXJsb2lzZnVuIQ==",      
+        "eric": "bGV0c21ha2VpdCE=",               
+        "davidj": "aXNvZ2VuaWVzYXJlZnVuIQ=="      
       };
 
       function login(event) {
@@ -264,7 +264,10 @@
         const username = document.getElementById('username').value.trim();
         const password = document.getElementById('password').value;
         const errorDiv = document.getElementById('login-error');
-        if (users[username] && users[username] === password) {
+        if (
+          users[username] &&
+          atob(users[username]) === password
+        ) {
           // Hide login, show main content
           document.getElementById('login-overlay').style.display = 'none';
           document.getElementById('main-content').style.display = '';
