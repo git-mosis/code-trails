@@ -251,7 +251,7 @@
   </head>
   <body>
     <div id="login-overlay">
-      <form id="login-box" onsubmit="return login(event)">
+      <form id="login-box" onsubmit="return login(event, LOGIN_ENABLED)">
         <h2>Login to Code Trails</h2>
         <div id="login-error"></div>
         <input id="username" type="text" placeholder="Username" autocomplete="username" required autofocus>
@@ -393,13 +393,32 @@
     </div>
 
     <script>
-      // Usernames and base64-encoded passwords (client-side only, not secure)
+      // Set if login is enabled or disabled here
+      const LOGIN_ENABLED = false; // change to true to require login
+
       const users = {
-        "leetuser": "dGVjaG5pY21rMyE=" // technicmk3!
+        "leetuser": "dGVjaG5pY21rMyE=" 
       };
 
-      function login(event) {
+      // Show content immediately when login is disabled
+      document.addEventListener('DOMContentLoaded', () => {
+        if (!LOGIN_ENABLED) {
+          const overlay = document.getElementById('login-overlay');
+          const main = document.getElementById('main-content');
+          if (overlay) overlay.style.display = 'none';
+          if (main) main.style.display = '';
+        }
+      });
+
+      // Pass in a parameter here for true or false when login is enabled vs disabled
+      function login(event, enabled) {
         event.preventDefault();
+        if (!enabled) {
+          // When disabled, just reveal content
+          document.getElementById('login-overlay').style.display = 'none';
+          document.getElementById('main-content').style.display = '';
+          return false;
+        }
         const username = document.getElementById('username').value.trim();
         const password = document.getElementById('password').value;
         const errorDiv = document.getElementById('login-error');
