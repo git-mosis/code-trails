@@ -11,7 +11,8 @@ What Cosine similarity does is measure how alike two pieces of text are by conve
 
 **YouTube link here:** [3Blue1Brown
  video on Cosine Similarity](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
-[![Cosine Similarity Diagram](./cosine-simularity.png)](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
+[![Cosine Similarity Diagram](cosine-simularity.png)](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
+
 
 #### Cosine Similarity Example
 Instead of using learned embeddings, we will assign values manually to show how cosine similarity works. In practice, these values would normally come from an embedding model trained from text on the internet. 
@@ -25,7 +26,7 @@ We take the dot product and divide by the magnitudes to compute the cosine of th
 
 ---
 
-### 1) cat vs dog 
+#### 1) cat vs dog 
 A = [1, 1, 0]  
 B = [1, 0.9, 0]  
 
@@ -44,7 +45,7 @@ cos(A, B) = 1.9 / (1.4142 * 1.3454)
 
 ---
 
-### 2) cat vs car
+#### 2) cat vs car
 A = [1, 1, 0]  
 C = [0, 0, 1]  
 
@@ -60,7 +61,7 @@ cos(A, C) = 0 / (sqrt(2) * 1) = 0
 
 ---
 
-### 3) dog vs den
+#### 3) dog vs den
 B = [1, 0.9, 0]  
 D = [0.9, 1, 0]  
 
@@ -104,4 +105,3 @@ As a result, the embeddings capture semantic meaning, so cosine similarity betwe
 ### How does this tie into RAG?  
 
 Why it matters is simple: **the embedding model you choose makes all the difference**. You can scale a massive vector database, but if the embeddings don’t truly reflect semantics, the retrieved answers will not be meaningful.  
-
