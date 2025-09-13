@@ -4,30 +4,25 @@ title: "Is cosine simulairty a Hoax?"
 permalink: /Sept-1-25-is-cosine-a-hoax/
 ---
 
-# RAG - is the cosine simulairty a hoax? Grabbing semantic meaning from text via math. 
+# RAG - is the cosine simulairty a hoax? 
 
-Hypothesis: Randomly sampling chunks of text from a document may provide as much or even more useful context for an LLM than nearest neighbor retrieval, since nearest neighbor methods like Chroma’s Recursive Character Text Splitter sometimes return results that feel random or irrelevant to the query.
+## Uncovering the truth
+Previously in my last blog post (**todo insert link**), we looked at how an embedding model and which one you choose can make all the difference. Today we be taking a closer look at using modern embeddings and their results. 
 
-## Understanding Cosine Similarity in Text Analysis  
+## It all started with a paper
+Years ago, I found https://arxiv.org/pdf/1806.07366 that caught my attention. I wanted to see how David Duvenaud's research has progressed.
 
-When we compare two pieces of writing, we often want a way to measure how alike they are beyond just matching words. This is where cosine similarity comes in. 
-
-## What is Cosine Similarity?  
-
-Cosine similarity measures how alike two pieces of text are by converting the text into numbers and placing them on a Cartesian graph. Rather than comparing the raw words, each grouped text is represented as a vector that captures a space location in the graph. You can see this in action via the video below. 
-
-**YouTube link here:** [Cosine Similarity Diagram](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
-[![Cosine Similarity Diagram](./cosine-simularity.png)](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
-
- 
-## Why It Matters 
-
-This technique became popular in information retrieval because it allows search engines and recommendation systems to quickly assess how closely a query matches a document. A cosine similarity score ranges from 0 to 1, where 0 means no similarity and 1 means the texts are identical in direction. Its strength lies in its simplicity and efficiency, making it a foundational tool in natural language processing, from clustering documents to detecting duplicate content. By focusing on the angle rather than magnitude, cosine similarity provides a balanced way to compare text regardless of word count.  
+I decided to build a RAG pipeline. My workflow takes Duvenaud's academic papers, splits them into chunks, embeds them with Hugging Face models like `all-MiniLM-L6-v2`, and stores them in a vectorstore. For fast search, I’m using an HNSW index under the hood. The goal is simple: when I ask a question, I want my retriever to give me the most relevant, answers of text from the document to feed into an LLM. However first, I want to understand the retreval of text from the vector database. 
 
 
-## What I’m Trying to Do
+Next
+• Go from file d to D in the blog. Explain the approach, why I did it and the duplicates I got.
+• Then explain file D. How it removed the duplicates but that results are really the same in terms of ranking and meaning. 
+• Explain that so far that neighrest neighbors / cosine sim may not be a hoax but the embedding model might be why the results aren't that good. 
+• From there, then show the before vs after results of the new physics embedding model  
 
-I’m building a retrieval-augmented generation (RAG) pipeline. My workflow takes long academic papers, splits them into chunks, embeds them with Hugging Face models like `all-MiniLM-L6-v2`, and stores them in a Chroma vectorstore. For fast search, I’m using an HNSW index under the hood. The goal is simple: when I ask a question, I want my retriever to give me the most relevant, diverse pieces of text from the document to feed into an LLM.
+    Explore trying the women in cs paper and those results as a blog... not sure 
+
 
 ## What I’m Running Into - why is RAG feeding duplicate chunks from my vectorstore. 
 
