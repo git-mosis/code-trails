@@ -1,13 +1,9 @@
----
-layout: post
-title: "RAG at Heart - Understanding Cosine Simulairty"
-permalink: /Sept-11-25-is-cosine-a-hoax/
----
+
 ## Introduction
 
-#### Understanding Cosine Similarity in Text Analysis  
+#### RAG at Heart - Understanding Cosine Simulairty
 
-At its core, when comparing a question to an answer, RAG represents each as a vector in a multi-dimensional space and then calculates the angle between those vectors using the cosine formula. This gives a numerical measure, in terms of degrees or cosine values, of how similar the question and answer it is based off of "distance." This is done using the `cosine simularity`. 
+At its core, when comparing a question to an answer, one way RAG represents retrevial is encoding text as a vector in a multi-dimensional space and then calculates the angle between those vectors using the cosine formula. This gives a numerical measure, in terms of degrees or cosine values, of how similar the question and answer it is based off of "distance." This is done using the `cosine simularity`. 
 
 #### What is Cosine Similarity?  
 
