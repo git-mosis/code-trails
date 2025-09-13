@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding cosine simulairty"
+title: "RAG at Heart - Understanding Cosine Simulairty"
 permalink: /Sept-11-25-is-cosine-a-hoax/
 ---
 ## Introduction

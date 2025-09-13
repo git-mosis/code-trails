@@ -166,6 +166,87 @@
         font-size: 0.98rem;
         min-height: 1.2em;
       }
+
+      .section-title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 24px;
+        margin-top: 0;
+      }
+      .news-grid {
+        display: grid;
+        /* Single column so each entry is a full-width row */
+        grid-template-columns: 1fr;
+        gap: 28px 24px;
+      }
+      .news-card {
+        display: flex;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        overflow: hidden;
+        min-height: 160px;
+      }
+      .news-img {
+        flex: 0 0 200px;
+        max-width: 200px;
+        min-width: 160px;
+        background: #f3f4f6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .news-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .news-content {
+        padding: 18px 20px 14px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .news-title {
+        font-size: 1.18rem;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      .news-meta {
+        font-size: 0.98rem;
+        color: #6b7280;
+        margin-bottom: 8px;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+      }
+      .news-meta .author {
+        color: #2563eb;
+        font-weight: 500;
+      }
+      .news-meta .date {
+        color: #6b7280;
+      }
+      .news-meta .comments {
+        color: #6b7280;
+      }
+      .news-summary {
+        font-size: 1rem;
+        color: #444;
+        margin-top: 2px;
+      }
+      @media (max-width: 900px) {
+        .news-card {
+          flex-direction: column;
+          min-height: unset;
+        }
+        .news-img {
+          max-width: 100%;
+          min-width: 100%;
+          height: 180px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -180,83 +261,141 @@
     </div>
 
     <div class="wrap" style="display:none;" id="main-content">
-
-      <header>
-        <h1>Code Trails</h1>
-        <div class="divider"></div>
-      </header>
-
-      <main class="grid" aria-label="Code trails grid">
-        <!-- Card 1: Link into Code trails/ directory -->
-        <a class="card-link" href="/code-trails/Sept-1-25-is-cosine-a-hoax/">
-          <article class="card">
-            <div class="media">
-              <img
-                alt="Forest path bathed in green sunlight"
-                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop"
-                onerror="this.onerror=null; this.src='https://picsum.photos/seed/green1/1200/1500';"
-              />
+      <h1 class="section-title">Elsa's AI Discovery Blog</h1>
+      <div class="news-grid">
+        <!-- Card 1 -->
+        <div class="news-card">
+          <div class="news-img">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop" alt="Microsoft Teams EU" />
+          </div>
+          <div class="news-content">
+            <div class="news-title">Microsoft Settles Office/Teams Bundling Case with EU</div>
+            <div class="news-meta">
+              <span class="author">Paul Thurrott</span>
+              <span class="date">SEP 13, 2025</span>
+              <span class="comments">0 comment</span>
             </div>
-            <h3 class="title">RAG - Is Consine Simulairty a Hoax?</h3>
-            <div class="kicker">Conversation</div>
-          </article>
-        </a>
-
-        <!-- Card 2 -->
-        <a class="card-link" href="Code trails/sacralized-space-placemaking.md">
-          <article class="card">
-            <div class="media">
-              <img
-                alt="Sunlit green mountains and valley"
-                src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop"
-                onerror="this.onerror=null; this.src='https://picsum.photos/seed/green2/1200/1500';"
-              />
+            <div class="news-summary">After years of negotiations and product changes, Microsoft has settled an EU antitrust case and...</div>
+          </div>
+        </div>
+        <!-- Card 2 (links to MD post) -->
+        <a class="card-link" href="./Sept-1-25-understanding-cosine-simularity.md">
+          <div class="news-card">
+            <div class="news-img">
+              <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop" alt="Cosine Similarity Post" />
             </div>
-            <h3 class="title">Sacralized Space: On the Practice of Placemaking</h3>
-            <div class="kicker">Conversation</div>
-          </article>
+            <div class="news-content">
+              <div class="news-title">Understanding cosine simulairty</div>
+              <div class="news-meta">
+                <span class="author">Elsa Hill</span>
+                <span class="date">SEP 11, 2025</span>
+                <span class="comments">Read post</span>
+              </div>
+              <div class="news-summary">At its core, when comparing a question to an answer, RAG represents each as a vector in a multi-dimensional space and then calculates the angle between those vectors using the cosine formula.</div>
+            </div>
+          </div>
         </a>
-
         <!-- Card 3 -->
-        <a class="card-link" href="Code trails/the-art-of-community.md">
-          <article class="card">
-            <div class="media">
-              <img
-                alt="Backlit green leaves with sunshine"
-                src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop"
-                onerror="this.onerror=null; this.src='https://picsum.photos/seed/green3/1200/1500';"
-              />
+        <div class="news-card">
+          <div class="news-img">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop" alt="Gmail Purchase Tracking" />
+          </div>
+          <div class="news-content">
+            <div class="news-title">Gmail Adds New Purchase Tracking View</div>
+            <div class="news-meta">
+              <span class="author">Laurent Giret</span>
+              <span class="date">SEP 11, 2025</span>
+              <span class="comments">0 comment</span>
             </div>
-            <h3 class="title">The Art of Community</h3>
-            <div class="kicker">Conversation</div>
-          </article>
-        </a>
-
+            <div class="news-summary">Google is adding a new purchase tracking view in Gmail to help users keep track...</div>
+          </div>
+        </div>
         <!-- Card 4 -->
-        <a class="card-link" href="Code trails/on-creating-the-future.md">
-          <article class="card">
-            <div class="media">
-              <img
-                alt="Sun-drenched green valley and rolling hills"
-                src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=1600&auto=format&fit=crop"
-                onerror="this.onerror=null; this.src='https://picsum.photos/seed/green4/1200/1500';"
-              />
+        <div class="news-card">
+          <div class="news-img">
+            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=1600&auto=format&fit=crop" alt="Opera GX Smart Home" />
+          </div>
+          <div class="news-content">
+            <div class="news-title">Opera GX Gets Smart Home Integration</div>
+            <div class="news-meta">
+              <span class="author">Paul Thurrott</span>
+              <span class="date">SEP 11, 2025</span>
+              <span class="comments">0 comment</span>
             </div>
-            <h3 class="title">On Creating the Future</h3>
-            <div class="kicker">Conversation</div>
-          </article>
-        </a>
-      </main>
+            <div class="news-summary">The latest version of the gaming-focused Opera GX web browser can integrate with smart home...</div>
+          </div>
+        </div>
+
+        <!-- Card 5 (variant of 1) -->
+        <div class="news-card">
+          <div class="news-img">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop" alt="Microsoft Teams EU" />
+          </div>
+          <div class="news-content">
+            <div class="news-title">EU Settlement Over Office/Teams Bundling: What Changed</div>
+            <div class="news-meta">
+              <span class="author">Paul Thurrott</span>
+              <span class="date">SEP 13, 2025</span>
+              <span class="comments">0 comment</span>
+            </div>
+            <div class="news-summary">After years of negotiations and product changes, Microsoft has settled an EU antitrust case and...</div>
+          </div>
+        </div>
+
+        <!-- Card 6 (variant of 2) -->
+        <div class="news-card">
+          <div class="news-img">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop" alt="OpenAI Microsoft" />
+          </div>
+          <div class="news-content">
+            <div class="news-title">OpenAI and Microsoft Expand Deal Amid Restructuring Plans</div>
+            <div class="news-meta">
+              <span class="author">Laurent Giret</span>
+              <span class="date">SEP 12, 2025</span>
+              <span class="comments">1 comment</span>
+            </div>
+            <div class="news-summary">OpenAI and Microsoft just announced a new deal as they prepare for the next phase...</div>
+          </div>
+        </div>
+
+        <!-- Card 7 (variant of 3) -->
+        <div class="news-card">
+          <div class="news-img">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1600&auto=format&fit=crop" alt="Gmail Purchase Tracking" />
+          </div>
+          <div class="news-content">
+            <div class="news-title">Gmail’s Purchase Tracking View Begins Rolling Out</div>
+            <div class="news-meta">
+              <span class="author">Laurent Giret</span>
+              <span class="date">SEP 11, 2025</span>
+              <span class="comments">0 comment</span>
+            </div>
+            <div class="news-summary">Google is adding a new purchase tracking view in Gmail to help users keep track...</div>
+          </div>
+        </div>
+
+        <!-- Card 8 (variant of 4) -->
+        <div class="news-card">
+          <div class="news-img">
+            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=1600&auto=format&fit=crop" alt="Opera GX Smart Home" />
+          </div>
+          <div class="news-content">
+            <div class="news-title">Opera GX Adds Deeper Smart Home Hooks</div>
+            <div class="news-meta">
+              <span class="author">Paul Thurrott</span>
+              <span class="date">SEP 11, 2025</span>
+              <span class="comments">0 comment</span>
+            </div>
+            <div class="news-summary">The latest version of the gaming-focused Opera GX web browser can integrate with smart home...</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script>
       // Usernames and base64-encoded passwords (client-side only, not secure)
       const users = {
-        "leetuser": "dGVjaG5pY21rMyE=",           
-        "honeybun": "bm90YWZhbm9mdWJ1bnR1IQ==",   
-        "davidc": "bW9udGVjYXJsb2lzZnVuIQ==",      
-        "eric": "bGV0c21ha2VpdCE=",               
-        "davidj": "aXNvZ2VuaWVzYXJlZnVuIQ=="      
+        "leetuser": "dGVjaG5pY21rMyE=" // technicmk3!
       };
 
       function login(event) {
