@@ -132,8 +132,9 @@ If you’re seeing duplicate chunks, it’s not a bug. It’s a known downside o
         // Inline code
         md = md.replace(/`([^`]+)`/g, '<code>$1</code>');
 
-        md = md.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (m, alt, src) => `<img alt="${alt}" src="${resolveUrl(src, baseDir)}">`);
-        md = md.replace(/\[([\s\S]*?)\]\(([^)]+)\)/g, (m, text, href) => `<a href="${resolveUrl(href, baseDir)}" target="_blank" rel="noopener">${text}</a>`);
+        md = md.replace(/!\[([^\]\n]*)\]\(([^)]+)\)/g, (m, alt, src) => `<img alt="${alt}" src="${resolveUrl(src, baseDir)}">`);
+        // Restrict links to avoid accidental multi-paragraph captures
+        md = md.replace(/\[([^\]\n]+)\]\(([^)\s]+)\)/g, (m, text, href) => `<a href="${resolveUrl(href, baseDir)}" target="_blank" rel="noopener">${text}</a>`);
         md = md.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
         md = md.replace(/\*([^*]+)\*/g, '<em>$1</em>');
         const lines = md.split('\n');
@@ -164,4 +165,3 @@ If you’re seeing duplicate chunks, it’s not a bug. It’s a known downside o
     </script>
   </body>
   </html>
-

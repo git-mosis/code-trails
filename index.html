@@ -204,6 +204,8 @@
         display: block;
         background: #f3f4f6; /* keep neutral bars when aspect differs */
       }
+      /* Variant: crop to fill for specific cards */
+      .news-img.cover img { object-fit: cover; padding: 0; }
       .news-content {
         padding: 18px 20px 14px 20px;
         display: flex;
@@ -268,8 +270,8 @@
         <!-- Card 1 (new post) -->
         <a class="card-link" href="./posts/Sept-11-25-is-cosine-a-hoax.html">
           <div class="news-card">
-            <div class="news-img">
-              <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop" alt="Cosine Hoax Post" />
+            <div class="news-img cover">
+              <img src="./cosine-hoax-image.png" alt="Cosine Hoax Post" />
             </div>
             <div class="news-content">
               <div class="news-title">Is cosine simulairty a Hoax?</div>
