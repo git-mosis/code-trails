@@ -15,6 +15,8 @@
       article img { max-width: 100%; height: auto; border-radius: 4px; }
       article pre { background:#0f172a; color:#e2e8f0; padding:12px 14px; overflow:auto; border-radius:6px; }
       article code { background:#f3f4f6; padding: 0 4px; border-radius: 3px; }
+      /* Ensure fenced code blocks are readable (no light background inside pre) */
+      article pre code { background: transparent; padding: 0; color: inherit; }
       article h2 { font-size: 1.6rem; margin-top: 1.8rem; }
       article h3 { font-size: 1.3rem; margin-top: 1.4rem; }
       article h4 { font-size: 1.1rem; margin-top: 1.1rem; }
@@ -33,10 +35,9 @@
     </div>
 
     <script id="md" type="text/markdown">
-# RAG - is the cosine simulairty a hoax? 
 
 ## Uncovering the truth
-Previously in my last blog post (**todo insert link**), we looked at why embedding models are imperative to semantic meaning. Today we be taking a closer look at using modern embeddings and their results. 
+Previously in [my last blog post](https://git-mosis.github.io/code-trails/posts/Sept-1-25-understanding-cosine-simularity.html), we looked at why embedding models are imperative to semantic meaning. Today we be taking a closer look at using modern embeddings and their results. 
 
 ## It all started with a paper
 Years ago, I found https://arxiv.org/pdf/1806.07366 that caught my attention. I wanted to see how David Duvenaud's research has progressed.
