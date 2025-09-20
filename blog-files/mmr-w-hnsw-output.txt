@@ -1,0 +1,3818 @@
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> python3 Step-3-store-vecotors-using-hnsw.py 
+Stored with HNSW, collection, papers, count, 390
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> 
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> 
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> python3 Step-4-query-llm-w-hnsw.py 
+
+Collections found:
+  name=papers, count=390, metadata={'hnsw:M': 16, 'hnsw:space': 'cosine', 'hnsw:search_ef': 100, 'hnsw:construction_ef': 200}
+
+Using collection, papers
+
+Collection metadata: {'hnsw:construction_ef': 200, 'hnsw:search_ef': 100, 'hnsw:space': 'cosine', 'hnsw:M': 16}
+
+Retrieved Chunks with MMR:
+
+Chunk 1
+Economic Sciences. Retrieved from
+https://www.nsf.gov/statistics/2017/nsf17310/static/downloads/nsf17310-digest.pdf
+National Student Clearinghouse Research Center. (2017). Undergraduate degree earners report, 201516. Undergraduates Degree Earners Report. Retrieved from
+https://nscresearchcenter.org/undergraduatedegreeearners-2015-16/
+Nosek, B. A., Greenwald, A. G., & Banaji, M. R. (2005). Understanding and using the implicit association
+
+Chunk 2
+Testing Greenwald and colleagues’ (2002) BID model resulted in significant regressions,
+suggesting that the IAT and the BID can be used as methods to predict implicit identities. Additionally,
+due to the BID providing positive results, we are confident in the measures of imbalance that came from
+
+Chunk 3
+second step for this model also accounted for 4% of the variance, F (3, 166) = 2.41, p = .069. Similar to
+the previous model, science identity, t (166) = .14, p = .89, and science-stereotype, t (166) = .32, p =
+.751, were not significant predictors of ethnic identity. This suggested that the interaction was
+significant, and the main effects of implicit science identity and implicit science-ethnic identity were not,
+
+Chunk 4
+-
+
+2. Implicit Computer Science
+
+.18
+
+Identity
+
+(24)
+
+2
+
+3
+
+4
+
+-
+
+.02
+
+.35
+
+3. Identity Imbalance
+
+(19)
+
+(19)
+
+.16
+
+.43*
+
+.10
+
+4. Long-term (Career) Interest
+
+(32)
+
+(24)
+
+(19)
+
+.17
+
+.26
+
+.07
+
+.72**
+
+(32)
+
+(24)
+
+(19)
+
+(32)
+
+5. Short-term (Class) Interest
+
+Note. * indicates significance at α = .05. ** indicates significance at α = .01.
+Higher scores on Identity Imbalance indicates larger imbalances in identity.
+
+Chunk 5
+2. Implicit Computer Science Identity
+
+3. Identity Imbalance
+
+4. Long-term (Career) Interest
+
+5. Short-term (Class) Interest
+
+2
+
+3
+
+4
+
+r
+(n)
+.09
+(29)
+
+-
+
+-.23
+
+-.07
+
+(26)
+
+(26)
+
+-.01
+
+.33
+
+-.32
+
+(35)
+
+(29)
+
+(26)
+
+.04
+
+.37*
+
+-.18
+
+.86**
+
+(35)
+
+(29)
+
+(26)
+
+(35)
+
+-
+
+-
+
+Chunk 6
+The variables b0, b1, b2, and b3 are the unstandardized beta coefficients that were obtained from the regression
+analyses used in the BID.
+
+Chunk 7
+that identity imbalance was not related to short-term (class) interest in computer science, r (26) = -.18, p
+= .379. Additionally, results did not reveal a significant relationship between identity imbalance and
+long-term (career) interest in computer science, r (26) = -.32, p = .109 (H2b; see Table 11).
+
+Chunk 8
+Figure 19. Histogram of short-term interest from the post-survey. Data show a slight negative
+distribution.
+
+Figure 21. Histogram of happiness for the post-survey. Data show slight negative skew.
+
+70
+
+Figure 22. Histogram of implicit computer science identity for the post-survey. Data show slight positive
+skew.
+
+Figure 23. Histogram for identity imbalance from the post-survey. Logarithm transformations were
+conducted to account for skew.
+
+Chunk 9
+Ahlqvist, S., London, B., & Rosenthal, L. (2013). Unstable identity compatibility: How gender rejection
+sensitivity undermines the success of women in science, technology, engineering, and
+mathematics fields. Psychological Science, 24(9), 1644-1652.
+Augustine, N. R. (2005). Rising above the gathering storm: Energizing and employing America for a
+brighter economic future. National Academy of Science, National Academy of Engineering,
+
+Chunk 10
+Step 1. C = b0 + b1(A X B) + e
+Step 2. C = b0 + b1(A X B) + b2(A) + b3(B) + e
+The first model used the interaction between implicit ethnic identity and the implicit scienceethnicity stereotype to predict science identity (step 1), R2 = .08, F (1, 168) = 13.95, p < .001. The second
+step included the science and the ethnicity identity constructs along with the interaction term, R2 = .09,
+F (3, 166) = 5.12, p = .002. Following the BID, neither science-stereotype, t (166) = 1.25, p = .215, or
+
+Chunk 11
+The next model is foreclosure and here the adolescent has not yet explored the options
+available but has concluded what path to pursue. Her parents, without much input or expression of her
+identity, may have made this decision for her. This is similar to the family obligations for those in the
+identity diffusion mode. Though, instead of having her options narrowed down, one had been chosen
+for her. This adolescent may have an interest in computer science but, her family or situation has made
+
+Chunk 12
+Hayes PROCESS macro (Hayes, 2012) was used to regress girls’ short-term and long-term interest in computer
+science onto identity balance (n = 19). Happiness was not a significant moderator in the relationship between
+identity balance and short-term interest (H4; b = -.06, SE = 1.49, p = .969) or long-term interest (b = 1.77, SE = 2.48,
+p = .485).
+10
+
+Chunk 13
+.03
+
+.14
+
+-.10
+
+-.07
+
+.08
+
+.08
+
+.24
+
+.18
+
+-
+
+10. Identity Imbalance
+
+-.08
+
+.29*
+
+-.01
+
+.11
+
+-.21
+
+.01
+
+.28*
+
+-.06
+
+.13
+
+Note. In STEM correlations n = 62, with the exception of science identity where n = 56. ** indicates significance at α = .01 and *
+indicates significance at α = .05.RUNNING HEAD:
+
+Chunk 14
+revealed a positive skew (0.73). Happiness was shown to be normally distributed (0.02). Implicit
+computer science identity was shown to be negatively skewed (-0.18). Identity imbalance was shown to
+be very skewed and logarithmic transformations were conducted to adjust for this. As such, the data
+became more normal (0.53; see Figures 12-16 for distributions).
+
+Chunk 15
+she wants to help people with technology. In order to this, she can be a teacher, develop technology to
+help students better engage in class, or develop platforms that help students see the concepts that they
+learned in class in the real world.
+In terms of identity balance, there is a potential benefit related to the moratorium state. The
+adolescent is constantly revising the commitments made (Berzonsky, 1990). As she continues to search
+
+Chunk 16
+.06
+
+-.14
+
+.25*
+
+-.14
+
+.17
+
+-
+
+7. Implicit Science Identity
+
+.07
+
+-.01
+
+-.11
+
+-.06
+
+-.03
+
+.26*
+
+-
+
+8. Implicit Ethnic Identity
+
+.24*
+
+-.14
+
+.15
+
+-.12
+
+.08
+
+.09
+
+.21*
+
+-
+
+9. Implicit Science-Stereotype
+
+-.06
+
+.05
+
+.01
+
+.004
+
+-.04
+
+.16
+
+.27**
+
+.05
+
+-
+
+10. Identity Imbalance
+
+.05
+
+-.09
+
+.17
+
+-.14
+
+.23*
+
+.12
+
+.19
+
+.22*
+
+.20*
+
+Chunk 17
+Figure 9. Happiness as a moderator in the relationship between identity imbalance and interest (short
+and long) in computer science.
+
+44
+Method
+
+Chunk 18
+anticipated a medium effect size (r = .30). It was expected that the variables would be moderately
+related. Referring to Cohen’s table a medium effect size of .3 with power at .80 indicates that
+approximately 85 participants were needed (Cohen, 1992). Due to attrition, this study was
+underpowered and final analyses and interpretations take this into consideration.
+Procedure
+A kick-off event took place in early October that introduced the girls to the Extended Hackathon
+
+Chunk 19
+was not a significant predictor of science-stereotype, t (166) = 1.15, p = .253, neither was ethnic identity,
+
+Chunk 20
+strong sense of belonging to the community of scientists, I have come to think of myself as a ‘scientist,’
+1 Strongly Disagree to 5 Strongly Agree). Additionally, the Multi-Ethnic Identity Measure-Revised (MEIMR; Phinney & Ong, 2007) was used to examine how strongly an individual explicitly associates to the selfreported ethnicity (e.g., I have a clear sense of my ethnic background and what it means for me, 1
+Strongly Disagree to 4 Strongly Agree; see Table 1).
+
+Chunk 21
+-.09
+
+.27**
+
+-.15
+
+.23**
+
+-
+
+7. Implicit Science Identity
+
+-.23
+
+.04
+
+.03
+
+.02
+
+-.12
+
+.29**
+
+-
+
+8. Implicit Ethnic Identity
+
+.21**
+
+-.09
+
+.12
+
+-.11
+
+.18*
+
+.23**
+
+.13
+
+-
+
+9. Implicit Science-Stereotype
+
+-.04
+
+.08
+
+-.03
+
+-.01
+
+.01
+
+.14
+
+.25**
+
+.13
+
+-
+
+10. Identity Imbalance
+
+.01
+
+.04
+
+.11
+
+-.03
+
+.03
+
+.07
+
+.25**
+
+.12
+
+.18*
+
+-
+
+11. STEM involvement
+
+-.07
+
+.01
+
+.03
+
+.11
+
+-.17*
+
+.24*
+
+.29**
+
+-.01
+
+.01
+
+.08
+
+Chunk 22
+and see if it significantly changes over time. This may provide better insight as to how these change over
+time as a result of involvement in the program. Providing more evidence as to the effectiveness of the
+program on happiness and identity, as opposed to overall happiness.
+This relationship between happiness and identity imbalance, though non-significant, is
+consistent with what previous research has found (Hirsh & Kang, 2016; Jetten et al., 2017; Jetten,
+
+Chunk 23
+brighter economic future. National Academy of Science, National Academy of Engineering,
+Institute of Medicine. Washington D. C.: National Academy Press.
+Berzonsky, M. D. (1990). Self-construction over the life span: A process perspective on identity
+formation. In G. H. Neimeyer & R.A. Neimeyer (Eds.), Advances in personal construct psychology.
+(Vol. 1, pp. 155-186). Greenwich, Ct.: JAI Press.
+
+Chunk 24
+before making a choice. This model provides a context for the current study of identity balance.
+In Marcia’s model, identity achievement refers to an adolescent who has gone through the crisis
+period and has made a choice about what she wishes to pursue. If an unexpected responsibility or
+conflict were to emerge, the adolescent would not become overwhelmed and feel as if her choice
+became unachievable. By not feeling overwhelmed, the adolescent will go through what Bronson (1959)
+
+Chunk 25
+Note. * indicates significance at α = .05. ** indicates significance at α = .01. Higher
+scores on Identity Imbalance indicates larger imbalances in identity.
+To test the second set of hypotheses, bivariate correlations were conducted to test if identity
+imbalance in 29 high school girls was related to an interest in a computer science career or an interest in
+taking computer science classes (H2a). Results did not indicate a statistically significant correlation such
+
+Chunk 26
+identity and focusing on the computer science identity (Hirsh & Kang, 2016).
+
+Chunk 27
+Science
+Note. * indicates compatible associations and ** indicates incompatible associations for each block in each of the three IATs. Higher scores for
+compatible and incompatible associations reflect positive and negative associations, respectively.RUNNING HEAD:
+
+Chunk 28
+with gender-ratios implicit accord with scientific identity. Frontiers in Psychology, 6(415), 1-19.
+
+Chunk 29
+revealed a slight negative skew (-0.46). Happiness was shown to have a slight negative skew (-0.31).
+Implicit computer science was slightly positively skewed (0.57). Identity imbalance was shown to be very
+positively skewed and logarithmic transformations were conducted to account for this (-0.02; see
+Figures 19-23 for distributions and Table 9 for descriptive statistics). For the post-survey, the girls had an
+
+Chunk 30
+H3a. There will be a positive relationship between happiness and implicit computer science
+identity. As happiness increases, so too will computer science identity (Me = Computer Science).
+H3b. There will be a negative relationship between happiness and identity imbalance, such that
+as happiness increases, identity imbalance decreases.
+H3c. There will be a relationship between happiness and interest (short and long-term), such
+
+Chunk 31
+61.6%
+
+36.9%
+
+Unknown A (- - -)
+
+3.8%
+
+-
+
+Unknown B (- - +)
+
+-
+
+15.8%
+
+Total Unknown
+
+3.8%
+
+15.8%
+
+Note. + indicates positive associations between constructs (e.g., Me = Female)
+and – indicates negative associations between constructs (e.g., Me ≠ Female).
+Of the 35 participants who completed the mid-survey, only 26 had complete
+and usable IAT data. Similarly, of the 32 who completed the post-survey, 19
+had complete and useable IAT data.
+
+Chunk 32
+situation that requires a certain identity, conflict can come from not knowing how to balance internal
+and external norms. This uncertainty, as touched upon by Marica’s (1966) models, leads to increased
+levels of negative well-being.
+Positive Well-Being
+When important identities are imbalanced, a person may feel stressed and pressured to find
+some sort of balance between them. If the adolescent female cannot be a computer scientist, maybe
+
+Chunk 33
+science and short-term interest, but there was a relationship for long-term (r (24) = .26, p = .23 and r
+(24) = .43, p = .038, respectively; see Table 12). This indicated that at the end of the program, girls who
+identified more as computer scientists also had a greater interest in pursuing a career in the field.
+Table 12
+Bivariate correlations between the measures of interest and identity imbalance for the post-survey
+1
+1. Subjective Happiness
+
+Chunk 34
+Additionally, results did not indicate a statistically significant regression such that identity imbalance was
+related to long-term interest in computer science, r (19) = -.10, p = .679 (H2b; see Table 12). These
+results indicated that identity imbalance was not related to interest in taking computer science classes
+or pursuing a career in computer science.
+To test the third set of hypotheses, bivariate correlations were conducted to examine the
+
+Chunk 35
+may be able to see if there are any significant changes in the categories over time as well as which
+
+Chunk 36
+implicit ethnic identity, r (170) = .12, p = .108. These suggest that larger identity imbalances are related
+to stronger implicit science associations and stronger science-ethnicity stereotypic associations and
+provide a clue as to how balance is achieved, but not with implicit ethnic identity (Table 2).RUNNING HEAD:
+
+Chunk 37
+decreased over a period of time. Further analyses with an increased sample size would need to be
+conducted in order to determine if these changes were significant. In doing so, it will give more validity
+to programs similar to CodeQueens and their goals in helping young women better identify as both
+females and as computer scientists. This is especially important considering the negative of the social
+stereotype.
+
+Chunk 38
+Figure 7. Histogram of identity imbalance for the preliminary study. Logarithm transformations were
+conducted to account for skewed data. As such, data become more normally distributed.
+
+Chunk 39
+ethnic identity, t (166) = .16, p = .87, were unique significant predictors of science identity, resulting in a
+significant interaction. This suggested that the main effects of implicit ethnic identity and implicit
+science-ethnic identity were not significant predictors. In other words, this stated that the interaction
+between ethnic identity and the science-ethnicity stereotype was significant in predicting science
+
+Chunk 40
+Figure 12. Histogram for short-term interest from the mid-survey data. Data show slight negative skew.
+
+Figure 13. Histogram for long-term interest from the mid-survey data. Data show slight positive skew.
+
+Figure 14. Histogram of happiness for the mid-survey data. Data show a normal distribution.
+
+Figure 15. Histogram for implicit computer science identity from the mid-survey data. Data show a slight
+negative distribution.
+
+Chunk 41
+Conversely, a more negative score reflects weaker associations such that Female ≠ Computer Science.
+This would indicate that females are unconsciously seen as not being part of computer science.
+Following Greenwald and colleagues (2002) BID model the scores obtained from a triad of
+related IATs can be used to indicate balanced or imbalanced associations. Specifically, the relative
+strength and direction of three constructs (Female, Computer Science, and self) are used to determine
+
+Chunk 42
+By changing how these associations are perceived on an implicit level, balance can be achieved,
+such that female = computer science. This increase in the salience or centrality of a certain identity,
+while reducing the centrality of another identity, can be a way that individuals manage the discrepancy
+and distress that may come with the conflict (Hirsh & Kang, 2016). Achieving this sense of identity
+
+Chunk 43
+Similarly, no evidence was found to support the relationships between happiness and implicit
+computer science, identity balance, or interest (short and long-term; H3). Though these relationships
+were non-significant, results indicated that there was no relationship at all between happiness and
+
+Chunk 44
+.25**
+
+.12
+
+.18*
+
+-
+
+11. STEM involvement
+
+-.07
+
+.01
+
+.03
+
+.11
+
+-.17*
+
+.24*
+
+.29**
+
+-.01
+
+.01
+
+.08
+
+Note. N = 170 for all correlations, with the exceptions of correlations with science identity and STEM involvement where n =
+139 and n = 163, respectively. ** indicates significance at α = .01 and * indicates significance at α = .05. STEM involvement
+coded as 1 being part of STEM. Larger implicit science stereotype D score indicates that science = Latino/ African American.RUNNING HEAD:
+
+Chunk 45
+H1b. There will be a positive relationship between implicit computer science identity and
+interest in a computer science career (long-term). As the strength of interest in a computer
+science career increases, implicit computer science identity increases as well.
+H2a. There will be a negative relationship between identity imbalance and interest in taking
+computer science classes (short-term). As identity imbalance decreases (higher scores indicate
+
+Chunk 46
+Greenwald, A. G., Nosek, B. A., & Banaji, M. R. (2003). Understanding and using the implicit association
+test: I. An improved scoring algorithm. Journal of Personality and Social Psychology, 85, 197-216.
+Hayes, A. F. (2012). PROCESS: A versatile computational tool for observed variable mediation,
+moderation, and conditional process modeling [White paper]. Retrieved from
+http://www.afhayes.com/ public/process2012.pdf
+
+Chunk 47
+formed, leading to a lack of significant findings. By examining a younger population, specifically
+adolescents, we may be able to examine if identity formation begins at an earlier stage in life.
+Additionally, we may be able to understand if this formation is related to identity imbalance, happiness,
+interest in computer science, and implicit computer science identity.
+Not in STEM. To better understand these relationships, we split the data and ran similar
+
+Chunk 48
+H3c. There will be a relationship between happiness and interest (short and long-term), such
+that as happiness increases, interest in computer science (short and long-term) increases as
+well.
+H4. Happiness will moderate the relationship between identity imbalance and interest in
+computer science (long and short-term). Specifically, girls who are happier will have lower
+identity imbalance and greater interest in computer science (long and short-term), compared to
+
+Chunk 49
+others. In other words, at the start of the program, they did not know each other and reported how
+happy they felt with little to no outside influence. As the program continued, the began comparing
+themselves to others. It may be that everyone’s level of happiness increased due to involvement in the
+program and as such their levels of happiness may have been similar. Further research should
+investigate the relationship between happiness and implicit identity (computer science and imbalance)
+
+Chunk 50
+Table 9 for statistics). Additionally, interest in computer science and explicit computer science identity
+were also superficially examined across the time points. Based on observations, the girls’ interest in
+
+Chunk 51
+statistical analyses. We did, however, make a superficial examination of happiness and interest in
+computer science (both short and long-term) for each time point simply by seeing any changes in the
+means; no statistical analyses were conducted to test for significant differences. Based on observations,
+happiness was sustained over time while short and long-term interest slightly increased over time (see
+
+Chunk 52
+Note. * indicates significance at α = .05. ** indicates significance at α = .01.
+Greater IAT scores indicate: Me = Female (gender identity), Me = Computer
+Science (computer science identity), and Female = Computer Science (gendercomputer science stereotype).
+The stimuli used in the IATs follow the theory that sorting is easily done when the stimuli are
+strongly associated more with one category over the other. These stimuli were derived from the
+
+Chunk 53
+not associated with the implicit ethnic identity or implicit science-stereotypes. These results indicated
+that, for former science URM students who have continued in a scientific career, the size of the
+imbalance increases as implicit science attitudes increase (see Table 4). This finding is interesting in that
+we would have expected these students to have a strong science-stereotype and imbalance.
+Testing Greenwald and colleagues’ (2002) BID model resulted in significant regressions,
+
+Chunk 54
+set of hypotheses indicated that there is no statistically significant relationship between interest (short
+or long-term) and identity imbalance. As such, moderations would not provide any significant insight as
+to whether or not happiness would have been a significant moderator 9.
+Preliminary analyses for post-survey data were conducted to view distributions and descriptive
+
+Chunk 55
+individuals reported having higher levels of positive well-being, compared imbalanced individuals.
+Specifically, they found that listing more identities predicted higher well-being if the identities were
+compatible. They state that having multiple identities can be beneficial to an individual if these identities
+are seen as being important and compatible.
+Females interested in computer science may see their gender and computer science identities
+
+Chunk 56
+This program was initially designed to be a three-wave long study assessing changes in identity,
+imbalance, and well-being over the length of the 16-week program. Unfortunately, computer errors did
+not allow for complete and accurate data collection. This study was underpowered, a power analysis
+referring to Cohen’s tables indicated at least 85 participants. These girls had other responsibilities
+
+Chunk 57
+identity imbalance (Table 2).
+There was a positive correlation between identity imbalance and the implicit science identity, r
+(170) = .25, p = .001. Higher implicit science identity was associated with greater imbalance. There was a
+small to moderate positive correlation between identity imbalance and implicit science-stereotypes, r
+(170) = .18, p = .016. Finally, there was no significant relationship between identity imbalance and
+
+Chunk 58
+science. Examining the relationship between happiness and implicit computer science identity (H3a)
+indicated no significant relationship (r (24) = .18, p = .405). Similarly, no significant relationships were
+found between happiness and identity imbalance (H3b; r (18) = -.02, p = .925). No statistically significant
+relationship was found between happiness and class interest in computer science (short-term; H3c; r
+
+Chunk 59
+moderator in the relationship between identity imbalance and short-term interest (b = -.24, SE = 1.21, p = .843) or
+long-term interest (b = -1.38, SE = 1.56, p = .385).
+8
+
+Chunk 60
+Algorithm appears, individuals who strongly associate this with computer science will quickly sort it into
+the Other or Computer Science, compared to the Me or Humanities category.
+Internal reliability was checked for each IAT by correlating the D1 and D2 scores as outlined by
+previous literature (Greenwald, Nosek, & Banaji, 2003). The correlations across the three mid and three
+post-survey IAT ranged from .54 to .69 and -.06 to .32, respectively. The reliability of the IAT comes from
+
+Chunk 61
+because they know that they still belong. There is this sense of connectedness and purpose because
+these identities are seen as working well together (Jetten et al., 2017; Jetten et al., 2014).
+Finally, no evidence was found supporting the hypotheses that happiness would moderate the
+relationship between identity imbalance and short/long-term interest in computer science (H4). The
+relationships were similar to the regressions, such that greater imbalance was related to lower levels of
+
+Chunk 62
+and the ethnic-science stereotype (Ethnicity = Scientist). In order to test our hypotheses, the
+relationships between these three scores were needed to assess the level of balance for our
+participants.
+Establishing Balance. Using Greenwald and colleagues’ (2002) model as a guide, we tested our
+balance conceptual model to see if identity balance was achieved across the sample. The balanced
+identity design (BID) involves a two-step hierarchical regression analysis in which the first step uses the
+
+Chunk 63
+changes over time are significant. These observations may provide some evidence suggesting that the
+CodeQueens program had a positive influence on the girls’ computer science identity and interest. Even
+though happiness did not increase it was sustained over time. Due to incomplete data, no further
+analyses were done for the pre-survey data, as such the remaining analyses involved the mid and the
+post-survey data.
+Table 9
+Statistics for explicit measures taken from each time point.
+Happiness
+
+Chunk 64
+In order to establish these triads accurately, we only used data from participants who completed all three IATs
+with a minimum accuracy score of 70%. This cut off point states that the data is accurate and reflective of the
+individuals implicit associations as stated by Greenwald and colleagues (2002).
+
+6
+
+Chunk 65
+having an interest in pursuing a career in computer science (long-term, see Table 12).
+To test the second set of hypotheses, bivariate correlations were conducted to test if identity
+imbalance was related to an interest in a computer science career or an interest in taking computer
+science classes (H2a). Results did not indicate a statistically significant correlation such that identity
+imbalance was not related to short-term (class) interest in computer science, r (19) = .07, p = .765.
+
+Chunk 66
+highlighting their positive attitudes, guidance, growth, and innovativeness during their time in the club.
+Each member was also given a certificate acknowledging their time and experience in the club. These
+
+Chunk 67
+examining a younger population, it may be possible to understand if this identity imbalance begins
+earlier in life. Additionally, by examining this younger population, it may be possible to see how identity
+balance relates to positive well-being and how it can be changed for the better.
+Erikson (1950) saw adolescence as a time in which the young adult is creating and developing
+ideas and plans that she wishes to get out of life. As the adolescent grows up and starts the transition
+
+Chunk 68
+reducing the likelihood of finding statistically significant results.
+Table 7
+Descriptive statistics for the D1 and D2 scores of each IAT from the mid and post-survey
+Mid-Survey
+D1
+
+Chunk 69
+-.04
+
+.16
+
+.27**
+
+.05
+
+-
+
+10. Identity Imbalance
+
+.05
+
+-.09
+
+.17
+
+-.14
+
+.23*
+
+.12
+
+.19
+
+.22*
+
+.20*
+
+Note. Not in STEM correlations n = 101, with the exception of correlations with science identity where n = 76. ** indicates significance
+at α = .01 and * indicates significance at α = .05.RUNNING HEAD: 
+
+Table 4
+Bivariate correlations between measures of interest and Identity imbalance in the preliminary study for STEM involvement
+In STEM
+
+1
+
+1. Subjective Happiness
+
+-
+
+2
+
+3
+
+4
+
+5
+
+Chunk 70
+We also collected explicit measures examining how much the individual associates to the
+identities of interest (science and ethnicity). Specifically, science identity was assessed using a scale
+developed by Chemers, Zubriggen, Syed, Goza, and Bearman (2011). This scale asked the participants
+questions about how they identified as scientists and how the field was important to them (e.g., I have a
+
+Chunk 71
+they may go home happier. This increase in positive well-being may carry over as they do their
+homework, chores, or other responsibilities outside of the club.
+One finding that Settles and colleagues (2002) shared with Brook and colleagues (2008) was that
+when both identities are experiencing positive outcomes, such as success and satisfaction, positive wellbeing increases. The main difference is that Settles and colleagues conducted their study with only two
+
+Chunk 72
+2
+
+3
+
+4
+
+5
+
+6
+
+7 A great deal
+
+4. Some people are generally not very happy. Although they are not depressed, they never seem as
+happy as they might be. To what extent does this characterization describe you?
+Not at all 1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7 A great deal
+Appendix B
+Computer Science Identity
+
+ID1. I am sure that I can learn programming.
+Completely Disagree 0 1
+
+Chunk 73
+1
+
+1. Subjective Happiness
+
+-
+
+2
+
+3
+
+4
+
+5
+
+2. Perceived Stress
+
+-.52**
+
+-
+
+3. Personal Joy in Work
+
+.37**
+
+-.23
+
+4. Trait Anxiety
+
+-.70**
+
+.69**
+
+-.44**
+
+5. Ethnic Identity
+
+.31*
+
+.01
+
+.02
+
+-.19
+
+-
+
+6. Science Identity
+
+.39**
+
+-.02
+
+.27*
+
+-.27*
+
+.42**
+
+6
+
+7
+
+8
+
+9
+
+-
+
+-
+
+7. Implicit Science Identity
+
+.14
+
+.14
+
+.23
+
+.05
+
+-.11
+
+.19
+
+-
+
+8. Ethnicity IAT
+
+.18
+
+-.06
+
+.05
+
+-.14
+
+.33**
+
+.43**
+
+.02
+
+-
+
+9. Science Stereotype IAT
+
+.03
+
+.14
+
+-.10
+
+-.07
+
+.08
+
+.08
+
+.24
+
+.18
+
+-
+
+10. Identity Imbalance
+
+-.08
+
+Chunk 74
+before returning home.
+Research has also found that multiple conflicting identities can cause burnout and lower wellbeing because the individual is spreading cognitive resources and energy across multiple groups,
+potentially becoming overwhelmed (e.g. Hirsh & Kang, 2016; Settles, 2004). For example, Settles (2004)
+examined the relationship between identity centrality, or salience, in academic performance and
+
+Chunk 75
+Overall, the reliability results suggest a moderate degree of stability across time. For the
+majority of the analyses, the correlations were strong and positive. The only low-reliability coefficients
+were for the post-test measure of the gender and the gender-computer science stereotype, which
+showed r = .32 and r = -.06, respectively. A low-reliability coefficient will affect the overall results by
+reducing the likelihood of finding statistically significant results.
+Table 7
+
+Chunk 76
+National Center for Science and Engineering Statistics Directorate for Social, Behavioral and
+
+Chunk 77
+Figure 3. Balanced identity for students interested in computer science (Balance C). Negative
+associations between self and gender, as well as between gender and computer-science. Suppressing
+gender to make computer science more important.
+An imbalanced identity, alternatively, may reflect females who have strong associations with
+their gender (Me = Female) and with computer science (Me = Computer Science) but have weak
+
+Chunk 78
+science. Examining the relationship between happiness and implicit computer science identity (H3a)
+indicated no significant relationship (r (29) = -.09, p = .634). Similarly, no significant relationships were
+found between happiness and identity imbalance (H3b; r (26) = -.23, p = .268). No statistically significant
+relationship was found between happiness and class interest in computer science (short-term; H3c; r
+
+Chunk 79
+SOLE Effects. (2018). SWITCH experience. Retrieved from SOLE Effects website:
+http://soleeffects.com/switch/
+Spielberger, C. D., Gorsuch, R. L., Lushene, R., Vagg, P. R., & Jacobs, G. A. (1983). Manual for the StateTrait Anxiety Inventory. Palo Alto, CA: Consulting Psychologists Press
+Veelen, R., Otten, S., Cadinu, M., & Hansen, N. (2016). An integrative model of social identification: Selfstereotyping and self-anchoring as two cognitive pathways. Personality and Social Psychology
+
+Chunk 80
+merging compatible identities. By better understanding the influence of the relationship between
+important identities, we may be able to understand the influence that multiple salient identities
+(balance) have one well-being.
+A New Way to Measure Identity Imbalance
+Using Greenwald and colleagues’ (2002) balance identity design as a guide, Schultz, Woodcock,
+and Hernandez (2017) created a mathematical model to quantify an individual’s level of imbalance
+
+Chunk 81
+indicated a more balanced identity. Specifically, these scores are sorted into four categories. Scores
+closer to 0 indicate a perfect balance, such that the individual has strong positive associations towards
+the constructs (see Figures 1-3 for balanced triads). Additionally, as the scores increase, they can be
+reflective of the individual having small, moderate, or large imbalances between identities. Which may
+
+Chunk 82
+Finally, moderations were conducted to test the last hypothesis that happiness will moderate
+the relationship between identity imbalance and an interest in a career and taking classes in computer
+science (H4). The findings from the second set of hypotheses for the post-survey data also indicated that
+there is no statistically significant relationship between interest (short or long-term) and identity
+imbalance. As such, moderations would not provide any significant insight as to whether or not
+
+Chunk 83
+If there is a strong association towards a group (computer science), the adolescent’s identity
+associated with that group (computer scientist) will be reinforced and made more important. If the
+association is weak, however, identification towards that group will be weakened. The adolescent may
+then struggle to express herself in a way that reflects belongingness to that group (Nosek et al., 2002).
+
+Chunk 84
+identify as computer scientists, or how interested they are in computer science classes or careers.
+It may be the case that the girls compared their level of happiness to their fellow CodeQueens.
+By this time (about halfway through the project) the girls have made relationships with others and
+learned more about their peers. In doing so, they view their level of happiness in comparison to the
+others. In other words, at the start of the program, they did not know each other and reported how
+
+Chunk 85
+computer science (long-term; H2). These analyses were done using data from the mid time point. By this
+time, the girls may have started to develop, or further develop, identities as computer scientists. If a
+larger sample and more complete data were obtained, the relationship may have been stronger at the
+end of the program. The strength of this relationship may have been reflective of a large impact on
+
+Chunk 86
+= .78; see Appendix D for new measure). The second sub-scale assessed long-term interest or interest in
+pursuing a career in computer science using items from the interest in computer science (α = .97; see
+Appendix D for new measure). These new measures were used in the final analyses.
+Results
+During the kick-off event at the start of the program, 68 girls participated. As the program
+continued, attrition in commitment to the weekly club meetings, as well as attendance for the field trips
+
+Chunk 87
+relationship was found between happiness and class interest in computer science (short-term; H3c; r
+(32) = .17, p = .352). Additionally, no significant relationships were found between happiness and career
+interest in computer science (long-term; H3d; r (32) = .17, p = .378; see Table 11). These findings indicate
+that happiness has no relations with computer science, how imbalanced the individual will be, or how
+
+Chunk 88
+data collection that occurred during their last club meeting at their schools. The implicit data were
+further reduced to only include participants who had complete and accurate data. Each participant had
+to have done all three IATs with reasonable accuracy (no more than a 30% error rate for any IAT).
+Due to incomplete and missing data, changes over time could not be properly assessed using
+statistical analyses. We did, however, make a superficial examination of happiness and interest in
+
+Chunk 89
+topics.
+As she does so, she understands what aspects interest her the most and she is able to decide
+how she will help people with technology. In doing so, she challenges the social stereotype and creates a
+plan that she will pursue to become successful. These strong and positive developments in identity can
+be related to lower levels of anxiety, and higher levels of positive well-being (Hirsh & Kang, 2016).
+Identity Development and Well-Being
+
+Chunk 90
+multiple ethnicities (6%). Additionally, 29% were freshmen, 31% sophomore, 29% Junior, and 11%
+Seniors. The students were surveyed three times during the study, the pre-test and mid-test were
+conducted on campus, and the post-test was done at their respective schools (see Figure 8 for timeline).
+No previous research has tested these hypotheses and the power analyses were based on an
+anticipated a medium effect size (r = .30). It was expected that the variables would be moderately
+
+Chunk 91
+AUTHOR:
+
+Rodolfo Ramon Rodriguez Jr.
+
+DATE OF SUCCESSFUL DEFENSE:
+
+October 22, 2018
+
+THE THESIS HAS BEEN ACCEPTED BY THE THESIS COMMITTEE IN
+PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGREE OF MASTER OF ARTS IN
+PSYCHOLOGICAL SCIENCE.
+
+Wesley Schultz
+THESIS COMMITTEE CHAIR
+
+Anna Woodcock
+THESIS COMMITTEE MEMBER
+
+Youwen Ouyang
+THESIS COMMITTEE MEMBER
+
+,
+
+-
+
+SIGNATURE
+
+...,
+
+12/3/18
+DATERUNNING HEAD: 
+School Girls
+
+Rodolfo R. Rodriguez Jr.
+
+California State University San Marcos
+
+1
+
+Chunk 92
+consistent with what previous research has found (Hirsh & Kang, 2016; Jetten et al., 2017; Jetten,
+Haslam, Haslam, Dingle, & Jones, 2014). These multiple compatible identities (Female and Computer
+Scientists) may be made salient and then internalized. Once internalized, the individual finds
+membership in these groups to be important. This importance may help in reducing any stressors or
+negativity that comes with them (being a woman in a male-dominated computer science career)
+
+Chunk 93
+Data for this analysis came from Wave 23 of the longitudinal study, TheScienceStudy, that we
+collected during the spring of 2017. These data were part of a 12-year study of former college URM
+science students across the United States. These students were initially recruited during their
+undergraduate years and now they are out of school, some working in STEM-related fields, while others
+were working in non-STEM-related fields. Since 2005, we surveyed participants bi-annually (fall and
+
+Chunk 94
+(Vol. 1, pp. 155-186). Greenwich, Ct.: JAI Press.
+Bronson, G. W. (1959). Identity diffusion in late adolescents. Journal of Abnormal and Social Psychology,
+59, 414-417.
+Brook, A. T., Garcia, J., & Fleming, M. (2008). The effects of multiple identities on psychological wellbeing. Society for Personality and Social Psychology, 34(12), 1588-1600.
+Bruni, C. M. & Schultz, P. W. (2010). Implicit beliefs about self and nature: Evidence from an IAT game.
+
+Chunk 95
+more information. This comparison group would consist of girls who are predominantly white and/or
+are not part of a similar intervention program. This group can be used to see how the relationships
+between identity balance, implicit computer science identity, happiness, and interest in computer
+science vary between the two. Collecting data over time can also shed light as to how these
+relationships change over time, further providing evidence for the benefits of intervention programs
+
+Chunk 96
+to lower scores. These scores range from -2 to +2, where a more positive score is related to stronger
+associations towards a specified pairing.
+For example, if the constructs Female and Computer Science are paired such that Female =
+Computer Science, a strong positive score reflects stronger associations between Female and Computer
+Science. This indicates that there is an unconscious association between females and computer science.
+
+Chunk 97
+science). Teaching these students computer science methods as well as providing them with guidance
+and access to resources allowed them to experience the role of a computer scientist (see Figure 8 for
+timeline). The following hypotheses were tested and conducted using data collected from the midsurvey of the program 3.
+Hypotheses:
+H1a. There will be a positive relationship between implicit computer science identity and
+
+Chunk 98
+became unachievable. By not feeling overwhelmed, the adolescent will go through what Bronson (1959)
+calls ego identity or the state in which the adolescent is able to understand more about who she is.
+An adolescent in this mode can be categorized as being balanced, such that she wants to
+become a computer scientist. She identifies as a female and has positive associations between her
+gender and computer science. As she engages in clubs and activities that bolster her interest in
+
+Chunk 99
+Regardless of whether the girls had completed all three IATs, any useable implicit computer science IAT data
+were used in the analyses.
+9
+The effects of happiness on the relationships between identity imbalance and short-term interest in computer
+science of 26 high school girls were examined. Hayes PROCESS macro (Hayes, 2012) was used to regress girls’
+short-term and long-term interest in computer science onto identity imbalance. Happiness was not a significant
+
+Chunk 100
+implicit consistency in social cognition. In B. Gawronski & F. Strack (Eds.), Cognitive consistency:
+A fundamental principle in social cognition (pp. 157-177). New York: The Guilford Press.
+EcoLife. (2018). Fuel-efficient stoves. Retrieve from EcoLife website:
+https://www.ecolifeconservation.org/fuel-efficient-stoves/
+Erikson, E. (1950). Childhood and society. New York: Norton.
+Greenwald, A. G., Banaji, M. R., Nosek, B. A., Teachman, B., & Nock, M. (2011). Gender-Science IAT.
+
+Chunk 101
+stereotype.
+The next mode Marcia proposed is identity diffusion, whereby the adolescent has gone through
+the crisis period but has not yet committed to a role. This is due to a lack of interest in career choices or
+an interest in many career choices. A student who has many interests may find it difficult to narrow
+down the options available, especially if they are very different (computer scientist vs. music teacher).
+
+Chunk 102
+studies, but as time goes on it becomes apparent that she is not as involved in the class as she was in the
+beginning. Though she still endorses her original statement, on an implicit level she may not hold such
+strong associations between females and computer science. This negative associations, in turn, affect
+her such that she unconsciously believes that she cannot successfully be a part of computer science. This
+
+Chunk 103
+the National Science Foundation.
+Settles, I. H. (2004). When multiple identities interfere: The role of identity centrality. Personality and
+Social Psychology Bulletin, 30(4), 487-500.
+Settles, I. H., Sellers, R. M., & Damas Jr., A. (2002). One role or two? The function of psychological
+separation in role conflict. Journal of Applied Psychology, 87(3), 574-582.
+Smyth, F. L. & Nosek, B. A. (2015). On the gender-science stereotypes held by scientists: Explicit accord
+
+Chunk 104
+from childhood to young adulthood, the adolescent is figuring out who she is and what her potential
+societal role will be; also referred to as a crisis period. Using this concept, Marcia (1966) proposed
+different modes that define where an adolescent stands when making future career decisions. These are
+based on how committed the person is to the chosen role and how much exploration has been done
+before making a choice. This model provides a context for the current study of identity balance.
+
+Chunk 105
+cognition: The implicit association test. Journal of Personality and Social Psychology, 74, 14641480.
+
+Chunk 106
+well-being: The path from theory to policy. Social Issues and Policy Review, 8(1), 103-130.
+Lane, K. A., Goh, J. X., & Driver-Linn, E. (2011). Implicit science stereotypes mediate the relationship
+between gender and academic participation. Sex Roles, 66, 220-234.
+Lyubomirsky, S. & Lepper, H. S. (1999). A measure of subjective happiness: Preliminary reliability and
+construct validity. Social Indicators Research, 46, 137-155.
+
+Chunk 107
+happiness has no relations with implicit associations towards computer science, how imbalanced the
+individual was, or how interested the individual is in taking computer science classes or pursuing a
+career in computer science (Table 11).
+The final hypothesis (H4) was to examine if happiness moderates the relationship between
+identity imbalance and interest in computer science (short and long-term). The findings from the second
+
+Chunk 108
+and Hernandez (2017) created a mathematical model to quantify an individual’s level of imbalance
+between three constructs (e.g., self, gender, and computer science). They used three different implicit
+associations tests to assess balance (e.g., female identity, computer science identity, and gendercomputer science stereotype).
+As previously mentioned, the Implicit Associations Test (IAT) uses reaction time and accuracy
+
+Chunk 109
+identity imbalance and greater interest in computer science (long and short-term), compared to
+girls who reported being less happy (Figure 9).
+
+Chunk 110
+Greenwald and colleagues (1998) outlined a 5-item per category test and a 25-item per category test.
+These shorter 5-item IATs were selected to account for time due to the fact that three IATs and the
+responses from the explicit measures were collected in one sitting.
+Implicit Computer Science Identity. The computer science identity IAT measured the level of
+association between self and computer science (Me = Computer Science). Positive scores reflect
+
+Chunk 111
+computer science classes (short-term). As identity imbalance decreases (higher scores indicate
+larger levels of identity imbalance), interest in taking computer science classes increases.
+H2b. There will a negative relationship between Identity imbalance and interest in a computer
+science career (long-term). As identity balance decreases, interest in a computer science career
+increases.
+H3a. There will be a positive relationship between happiness and implicit computer science
+
+Chunk 112
+science were positively related to implicit computer science identity, r (29) = .37, p = .046 and r (24) =
+.43, p = .038, respectively. No evidence was found indicating that identity balance was related to
+happiness. This study found that interest in computer science is reflective of identifying as a computer
+scientist.
+
+Chunk 113
+Woodcock, & Schultz, In Press; Schultz et al., 2011; Woodcock et al., 2012). This research has been
+typically conducted with adults however, early adolescence, individuals are beginning to form their
+identities, and are more malleable during this time (Erikson, 1950). Few studies have examined how the
+development of early identities relates to the identity balance and the pursuit of STEM fields; this study
+seeks to address this gap.
+
+Chunk 114
+H1a. There will be a positive relationship between implicit computer science identity and
+interest in taking computer science classes (short-term). As the strength of interest in taking
+computer science classes increases, implicit computer science identity increases as well.
+
+Chunk 115
+such that the more imbalanced the individual the more stressed the individual was.
+There were no significant correlations between identity imbalance and implicit ethnicity
+identity, r (62) = -.06, p = .632, or implicit science-stereotypes IAT, r (62) = .13, p = .332. A small to
+moderate correlation was found between imbalance and implicit science identities, r (62) = .28, p = .03.
+This suggests that even though identity imbalance was associated with implicit science identity, it was
+
+Chunk 116
+interaction between two sets of constructs (e.g. gender [A] x computer science [B]) to predict a third
+construct (computer science stereotypes [C]). The second step includes each of the two constructs
+separately (gender, computer science) along with the interaction term. This model states that the
+interaction of the variables should be the only significant predictor of the third variable (step 1 1). In
+
+Chunk 117
+5
+
+N varied for each IAT due to using as much complete data as possible.
+
+Chunk 118
+Review, 20(1), 3-26.
+Woodcock, A., Hernandez, P. R., Estrada, M., & Schultz, P. W. (2012). The consequences of chronic
+stereotype threat: Domain disidentification and abandonment. Journal of Personality and Social
+Psychology, 103(4), 635-646.
+Appendix A
+Subjective Happiness Scale
+
+Chunk 119
+Table 2
+Bivariate correlations between the measures of interest and identity imbalance in the preliminary study, not split by STEM involvement
+1
+1. Subjective Happiness
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+-
+
+2. Perceived Stress
+
+-.58**
+
+-
+
+3. Personal Joy in Work
+
+.51**
+
+-.38**
+
+-
+
+4. Trait Anxiety
+
+-.73**
+
+.77**
+
+-.49**
+
+-
+
+5. Ethnic Identity
+
+.30**
+
+-.11
+
+.13
+
+-.25**
+
+-
+
+6. Science Identity
+
+.19*
+
+-.09
+
+.27**
+
+-.15
+
+.23**
+
+-
+
+7. Implicit Science Identity
+
+-.23
+
+.04
+
+.03
+
+.02
+
+-.12
+
+.29**
+
+-
+
+Chunk 120
+between important identities that lead to imbalance. This imbalance is caused by a feeling of
+contradictory associations, leading to a sense of negative well-being and not belonging. This feeling may
+persist as she continues into adulthood if it is not resolved.
+Identity Balance
+Greenwald and colleagues (2002) proposed a theoretical model, balanced identity design (BID),
+to describe configurations of balanced and imbalanced identities. The triads created from this model are
+
+Chunk 121
+strongly associated more with one category over the other. These stimuli were derived from the
+assumption that attitudes towards a certain group (ie., Me, Other, Computer Science, and Humanities)
+are based on descriptors or names that are associated with that group (ie., I, Them, Code, and Art,
+respectively; Greenwald, Banaji, Rudman, Farnham, Nosek, & Rosier, 2000). Additionally, these stimuli
+came from the assumption that the constructs and categories are expected to be universally associated
+
+Chunk 122
+scores from .1 to .4999 reflect a small imbalance, scores ranging from .5 to .7999 are moderately
+imbalanced, and anything .8 or greater are largely imbalanced. The greater the absolute value of the
+difference scores, the larger the imbalance. A score of zero reflects perfect balance such that the
+predicted and actual scores were the same for a certain IAT. If this were to occur for the remaining two
+IATs, then the individual can be classified as being fully balanced.
+
+Chunk 123
+science, on an implicit level, the higher their interest in pursuing computer science. This relationship
+may provide insight as to how implicit associations relate to continuation along STEM paths, specifically
+for computer science. This is further supported by the finding from both time-points that short-term and
+
+Chunk 124
+These studies support the theory that constructs commonly related to categories can be used to
+assess implicit associations. This is true as long as the constructs used are not related to both categories
+(e.g., the stimuli student cannot be used since it can be related to either computer science or
+humanities). Additionally, along with the stimuli being associated with the categories, the stimuli have to
+
+Chunk 125
+behavioral inhibition system. Personality and Social Psychology Review, 20(3), 223-244.
+Jetten, J., Haslam, S. A., Cruwys, T., Greenaway, K. H., Haslam, C., & Steffens, N. K. (2017). Advancing the
+social identity approach to health and well-being: Progressing the social cure research agenda.
+European Journal of Social Psychology, 47, 789-802.
+Jetten, J. Haslam, C., Haslam, S. A., Dingle, G., & Jones, J. M. (2014). How groups affect our health and
+
+Chunk 126
+and future directions. Journal of Counseling Psychology, 54(3), 271-281.
+Schultz, P. W., Hernandez, P. R., Woodcock, A., Estrada, M., Chance, R. C., Aguilar, M., & Serpe, R. T.
+(2011). Patching the pipeline: Reducing educational disparities in the sciences through minority
+training programs. Educational Evaluation and Policy Analysis, 33(1), 95-114.
+Schultz, P. W., Woodcock, A., Hernandez, E. (2017). Becoming a scientist. Grant proposal submitted to
+the National Science Foundation.
+
+Chunk 127
+were in or out of a STEM field (1 = In STEM). Participants were in STEM if their career or major reflected
+these fields (engineer, computer programmer, a chemistry major, a biology major, etc.).
+The final analytic sample included 170 participants who completed the survey items, as well as
+the three IATs. These IATs measured ethnic identity (Me = Ethnicity), science identity (Me = Scientist),
+and the ethnic-science stereotype (Ethnicity = Scientist). In order to test our hypotheses, the
+
+Chunk 128
+This study was conducted with adults who may have established their career and educational
+paths. In doing so, they have also established their identities in regards to ethnicity and science. Due to
+this reason, their identities are set and may not be subject to change. These identities have already been
+formed, leading to a lack of significant findings. By examining a younger population, specifically
+
+Chunk 129
+each IAT test in order to ensure that all three were done. This is especially important in using as much
+data as possible to accurately establish a level of imbalance as well as what triad category they fall
+under. Additionally, there was a change in how the pre-survey data were collected. Pre-survey data
+were collected during the second week of the club, as opposed to before the club meetings began, and
+
+Chunk 130
+and the stereotype (Female = Science) may begin at a young age and then carry over into adulthood.
+These associations make up a majority of a balanced triad which may provide further evidence
+supporting the theory that identity balance can be related to participation and retention in science
+
+Chunk 131
+STEM Involvement. There was a significant relationship between STEM involvement (either in
+or out of a STEM field) and the implicit science identity measure, r (161) = .29, p < .001, which is to be
+expected. Being in STEM was related with implicitly identifying as a scientist. Correlating STEM
+involvement to ethnic and science-stereotype implicit measures revealed no significant relationships, r
+
+Chunk 132
+Figure 17. Unknown triad A where individual had negative associations towards female and computer
+science, but strong associations between female and computer science.
+Triads were also created for the post-survey-data (n = 19). These data revealed that the girls
+were more balanced (47.4%) than imbalanced (36.9%) and the remaining fell into the unknown category
+(unknown B 5.8%; Figure 18). The majority of the balanced individuals were balanced (A 26.3%; B 5.3%;
+
+Chunk 133
+being predominately made up of male students, having male computer science instructors, and not
+reading about female contributions to computer science.
+To stop the interruption, the young adult attempts to change and match internal norms (values
+gained from interacting with others) to external norms (societal values; stereotypes). If the environment
+
+Chunk 134
+and distress that may come with the conflict (Hirsh & Kang, 2016). Achieving this sense of identity
+balance helps the computer science community gain new members, diversifying the field, and helping
+the United States become more competitive and innovative in science and technology (Augustine,
+2005). Additionally, females who want to be computer scientists, and continue along that path,
+challenge the stereotype that women do not fit into computer science. Tackling this issue at a younger
+
+Chunk 135
+science stereotype.RUNNING HEAD:
+
+Chunk 136
+may feel conflicted (Nosek et al., 2002). The preferences and beliefs of a group influence identity
+development. By suppressing one identity (e.g. female) and making another (e.g. computer science)
+more important, the individual reduces any inconsistencies that come from being a female in computer
+science. In doing so, the less important identity is pushed down and is deemphasized. Additionally, the
+
+Chunk 137
+Positive Well-Being 26
+A New Way to Measure Identity Imbalance 28
+Preliminary Study 30
+Establishing Balance 32
+Identity Imbalance Correlates 34
+STEM Involvement 37
+Not in STEM 37
+In STEM 38
+Current Study 42
+Method 45
+Participants 45
+Procedure 45
+Implicit Measures 50
+Implicit Association Test (IAT) 50
+Explicit Measures 58
+Happiness 58
+Identity as a Computer Scientist 58
+Short-term and Long-term Interest in Computer Science 59
+Results 59
+Abstract
+
+Chunk 138
+changes and relationships between the variables of interest.
+The same explicit measures to the previous year of the project are being used to assess explicit
+happiness as well as computer science self-efficacy, identity, and interest. Additionally, the IATs
+assessing implicit gender and computer science identity, as well as the gender-computer science
+stereotype are also being used. To better collect complete IAT data, the girls were given a checklist of
+
+Chunk 139
+Short-term and Long-term Interest in Computer Science. To further understand the interest in
+computer science, sub-scales were developed. The first sub-scale was used to assess short-term interest,
+or interest in learning about computer science using items from Chemers and colleagues (2011) interest
+in computer science scale (α = .96; see Appendix C for items) and the computer science identity scale (α
+
+Chunk 140
+interest in computer science but outside influences have not made that an option to choose from.
+Obligations to family or other factors may make it so that the student is limited in what she can do in her
+life. This can then lead to distress and anxiety, not from the stereotype but from not being able to
+explore the field. Having too little or too many options may then lead to identity imbalance.
+The next model is foreclosure and here the adolescent has not yet explored the options
+
+Chunk 141
+The associations between constructs are held both implicitly such that the relationships
+between the constructs are unconscious and explicitly such that the relationships are known to the
+individual. Implicit and explicit associations between constructs can be weakly correlated (Nosek, Banaji,
+& Greenwald, 2002). For example, adolescents interested in computer science may state that being a
+female and being a computer scientist is an important part of who they are. They may go on to state
+
+Chunk 142
+identities, the individual is able to focus on the most important role at a given point in time.
+They also found that by having this role separation the individual is able to use the positive
+experiences of one role as a buffer for the negative experiences on the other identity. By doing so,
+positive well-being is not affected by negative experiences because the roles are separated.
+Alternatively, if both roles are experiencing negative outcomes, positive well-being will decrease, as
+
+Chunk 143
+STEM (Settles, 2004).
+Identities perceived as being conflicting can represent a form of imbalance. Women with the
+greatest identity interference reflected women who associate their gender with computer science and
+their identity as being female. Although they do not identify as being a computer scientist. Women from
+Settles’ (2002) study were already in their chosen careers and they experience low levels of life
+
+Chunk 144
+opportunity to make it so.
+For the adolescent going through the crisis period who has general but vague commitments,
+Marcia would describe this as the moratorium mode. The young adult has a genuine concern and
+preoccupation about what to do in the future because she is in the process of exploring, but has not yet
+decided on a set path. This is somewhat similar to the identity diffusion mode, but the difference is that
+
+Chunk 145
+based on how quickly and accurately the stimuli are sorted and the difference of the scores between the
+compatible and incompatible test blocks will be included in calculating a score. Higher scores are given
+for quick correct responses, while lower scores are given for slower responses or incorrect responses.
+Three separate IATs were used: computer science identity, gender identity, and the stereotypic
+
+Chunk 146
+statements about their work (e.g., I experience joy in the daily activities of my work, I enjoy
+accomplishing goals at work; see Table 1 for descriptive statistics).
+
+Chunk 147
+Preliminary Study
+To further test the theoretical and mathematical models, we analyzed data obtained from a
+pilot study we conducted examining Latino and African American former biomedical students. The
+implicit relationships being tested were associations between self and science (science identity), self and
+ethnicity (ethnic identity), and between ethnicity and science (science-stereotypes).
+Data for this analysis came from Wave 23 of the longitudinal study, TheScienceStudy, that we
+
+Chunk 148
+be commonplace and simple to understand so that they can be easily generalizable to the larger
+population. Esoteric and complicated stimuli make sorting difficult for the individual, reducing the
+reliability and validity of the tests (Greenwald et al., 1998).
+For example, the stimuli obtained for the gender identity IAT use stimuli taken from the test that
+measures the strength of association between male and female (gender self-concept). These stimuli
+
+Chunk 149
+(Me = Computer Science), and interest in learning more about computer science and potentially
+pursuing a career in the field. The goal of this project was to examine if identity imbalance was related
+to happiness and if implicit computer science identity was related to an interest (short and long-term) in
+computer science. Specifically, it was found that both short-term and long-term interest in computer
+
+Chunk 150
+relationship was found between happiness and class interest in computer science (short-term; H3c; r
+(35) = .04, p = .808). Finally, no significant relationships were found between happiness and career
+interest in computer science (long-term; H3c; r (35) = -.01, p = .939). These findings indicated that
+happiness has no relations with implicit associations towards computer science, how imbalanced the
+
+Chunk 151
+and explore, there are few negative consequences from not knowing what to do because the adolescent
+is experimenting. At the same time, she is learning more about herself, her identity, and what leads to a
+sense of happiness (Crocetti, Rubini, Luyckx, & Meeus, 2008). This student is able to engage in various
+classes and opportunities that allow her to teach, interact with peers and instructors, and learn different
+topics.
+
+Chunk 152
+reduction in effort leads to bad grades, reinforcing her negative implicit beliefs and associations towards
+her science identity.
+When an adolescent comes across a situation that is interesting (computer science) but is not
+consistent with the current group’s norms (females cannot belong in computer science), the individual
+may feel conflicted (Nosek et al., 2002). The preferences and beliefs of a group influence identity
+
+Chunk 153
+towards computer science, nor does she see females as being part of computer science (Hirsh & Kang,
+2016). In this case, she holds her gender identity as being most important.
+
+Chunk 154
+Participants
+Data for this study came from 35 high school girls recruited from five schools in the North
+County San Diego area, about seven students from each school (mid-point survey). Data from the postsurvey were also used to compare data sets (n = 32). The mid-point survey had a slightly greater sample
+size, but data from the post-survey may also shed light as to how implicit computer science identity,
+
+Chunk 155
+Figure 16. Histogram for Identity Imbalance from the mid-survey data. Logarithm transformations were
+conducted to make the data normal.
+Identity Imbalance
+The mathematical model used in the preliminary study was used to calculate the participants’
+identity imbalance and these implicit identity data will be correlated with the explicit happiness
+measure. Greater scores on this scale indicated greater levels of imbalance, whereas scores closer to 0
+
+Chunk 156
+may deter them from pursuing this path, if not as a career choice.
+Burke (1991) proposed a model that can help explain how identity is associated with the
+development of anxiety. This model draws upon Mandler’s (1982) interruption theory, which states that
+the unconscious plays a role in how the individual behaves in a situation. This occurs when a behavior or
+thought process is interrupted. Interruption is defined as not being able to fully express oneself in a
+
+Chunk 157
+Explicit associations are typically measured via self-reports scales. Individuals report how they
+feel or agree on a certain question (e.g., ‘Being a computer scientist is an important part of who I am,’
+responses ranging from 1 Disagree to 5 Agree). These measures are subject to bias based on various
+factors. When asked questions such as this one, the individual may answer relative to how she thinks or
+
+Chunk 158
+imbalance. As such, moderations would not provide any significant insight as to whether or not
+happiness would have been a significant moderator 10.
+Discussion
+The triads for each time point allowed us to see how balance and imbalance were distributed in
+our sample. On a surface level, these statistics revealed that level of balance increased while imbalance
+decreased over a period of time. Further analyses with an increased sample size would need to be
+
+Chunk 159
+Preliminary analyses for mid-survey data were conducted to view distributions and descriptive
+statistics of the variables. Histograms revealed that interest in a taking computer science classes (shortterm) has a negative skew (-0.67) Similarly, interest in a career in computer science (long-term) also
+revealed a positive skew (0.73). Happiness was shown to be normally distributed (0.02). Implicit
+
+Chunk 160
+intervention programs such as CodeQueens.
+Additionally, similar analyses should be conducted, sample size allowing, using the triads. In
+addition to examining how identity imbalance relates to happiness, interest, and computer science
+identity, being able to see how the various forms of balance and imbalance may provide further insight
+as to how programs such as CodeQueens affect these students. Not only that, by using these triads, we
+
+Chunk 161
+long-term interest are positively related to one another. Additionally, this may provide some evidence to
+support the idea that the intervention had a positive influence on the girls wanting to learn more about
+computer science beyond high school.
+Strong positive implicit associations such that Me = Computer Science were related to stronger
+interests in pursuing a career in computer science at the end of the program. Should this relationship
+
+Chunk 162
+Figure 4. Imbalanced identities for students interested in science (Imbalance stereotype). Positive
+associations between self and gender, as well as self and computer science, but not between gender
+and computer science.
+Imbalance can also occur when strong associations between self and their gender occur (Me =
+Female), positive attitudes about the gender computer science stereotype exist (Female = Computer
+
+Chunk 163
+computer science seemed to have increased across the 16-week program. Similarly, the girls tended to
+identify more as computer scientists on an explicit level (see Table 9 for statistics). Further analyses
+should be conducted with more complete data to formally test if these trends are similar and if the
+changes over time are significant. These observations may provide some evidence suggesting that the
+
+Chunk 164
+Short-term (Class)
+
+Long-term (Career)
+
+Computer Science
+
+Computer Science
+
+Interest
+
+Interest
+
+Interest
+
+Identity
+
+n
+
+M
+
+SD
+
+n
+
+M
+
+SD
+
+n
+
+M
+
+SD
+
+n
+
+M
+
+SD
+
+n
+
+M
+
+SD
+
+Pre-Survey
+
+52
+
+4.75
+
+1.22
+
+55
+
+7.06
+
+2.27
+
+55
+
+5.47
+
+2.46
+
+55 6.08
+
+2.26
+
+55
+
+6.24
+
+2.26
+
+Mid-Survey
+
+35
+
+4.66
+
+1.20
+
+35
+
+7.53
+
+2.26
+
+35
+
+6.16
+
+3.01
+
+35 6.69
+
+2.83
+
+35
+
+6.70
+
+2.04
+
+Post-Survey
+
+32
+
+4.73
+
+1.38
+
+32
+
+7.69
+
+1.81
+
+32
+
+6.56
+
+2.79
+
+32 6.98
+
+2.39
+
+32
+
+6.99
+
+1.70
+
+Chunk 165
+scientist but thinking that they do not belong due to their gender creates stress and anxiety. These
+negative emotions and experiences may lead them dropping out of the path towards a field in computer
+science. Changing these negative implicit associations between multiple important identities into more
+positive (balanced) associations may help in reducing the threat and stress caused by the negative
+stereotype that men, not women, belong in computer science.
+Multiple Social Identities
+
+Chunk 166
+continues to fuel the social stereotype that men are computer scientists, not women. This makes it
+difficult to identify as a computer scientist while maintaining a strong identity as a woman.
+Identity
+Every individual belongs to many different groups, and a sense of identity develops by
+participating in the roles of these groups. For example, a nursing student can simultaneously identify as
+being a nurse, a student, and a sibling. These identities have various levels of importance, and this
+
+Chunk 167
+importance changes over time and between situations. In this study, identity is defined as the extent to
+which an individual attaches significance to a group or role that he or she belongs to (Veelen, Otten,
+Cadinu, & Hansen, 2016). How these identities are associated with one another is important in
+understanding the level of identity balance or imbalance of each person.
+Take for example a nursing student. When she is in class, her identity as a student is made
+
+Chunk 168
+were non-significant, results indicated that there was no relationship at all between happiness and
+implicit computer science or happiness and interest in computer science (neither short-term nor longterm). This may indicate that explicit happiness has little or nothing to do with how the girls implicitly
+identify as computer scientists, or how interested they are in computer science classes or careers.
+
+Chunk 169
+construct validity. Social Indicators Research, 46, 137-155.
+Mandler, G. (1982). Stress and Thought Processes. In L. Goldberger and S. Breznitz (Eds.), Handbook of
+Stress: Theoretical and Clinical Aspects (pp. 88-104), New York: The Free Press.
+Marcia, J. A. (1966). Development and validation of ego-identity status. Journal of
+Personality and Social Psychology, 3(5), 551-558.
+National Science Foundation. (2017). Women, minorities, and persons with disabilities and engineering.
+
+Chunk 170
+For those not in STEM, small to moderate correlations were found between imbalance and
+implicit ethnic identification, r (101) = .22, p = .029. Higher imbalance scores were related to stronger
+implicit associations towards ethnicity. No correlations were found between identity imbalance and
+implicit science identity, r (101) = .19, p = .062. Significant relations were found between imbalance and
+
+Chunk 171
+between ethnic identity and the science-ethnicity stereotype was significant in predicting science
+identity, compared to each variable having an influence independently. These results followed
+Greenwald and colleagues (2002) BID and suggest that students in the sample retain balanced identities.
+The second model predicted implicit ethnic identity, F (1, 168) = 7.18, p = .008, using implicit
+science-stereotypes and science identity; the interaction accounted for 4% of the variance (step 1). The
+
+Chunk 172
+A kick-off event took place in early October that introduced the girls to the Extended Hackathon
+program at California State University San Marcos (CSUSM). This was the first data collection point (presurvey data). The girls completed online surveys of self-report measures: happiness, interest in
+
+Chunk 173
+the mathematical model used to quantify balance and imbalance. Overall, results showed that
+imbalance was positively associated with implicit science identity for students both in and out of STEM.
+The more imbalanced that the individuals were, the more students, both in and out of STEM fields,
+identified as scientists. Another finding was that non-STEM students showed a positive relationship
+between imbalance and implicit ethnic identity. Being in non-STEM fields revealed that these students
+
+Chunk 174
+stereotype that men, not women, belong in computer science.
+Multiple Social Identities
+Research examining the effects of multiple social identities has produced mixed findings. Some
+research has found that multiple compatible identities are beneficial because one identity can help
+reduce the stress experienced from another (e.g. Brook, Garcia, & Fleming, 2008; Hirsh & Kang, 2016;
+Settles, Sellers, & Damas Jr., 2002). Settles and colleagues (2002) examined student-athletes and their
+
+Chunk 175
+be used and further developed for the younger generation. Additionally, it may provide a way to begin
+understanding identity development in adolescents.
+Future research should increase the sample size and replicate the study to see if, in fact, these
+findings hold true. Future findings may provide further insight into how identity imbalance, interest in
+computer science, and happiness relate to one another in adolescent girls interested in computer
+
+Chunk 176
+examined the relationship between identity centrality, or salience, in academic performance and
+depression in White women-scientists and women-scientists of color. Settles measured the degree to
+which women saw their gender and science identity as interfering with each other. Additionally, the
+researcher measured the importance of being a woman and a scientist. She also measured well-being in
+the form of self-esteem, depression, and life satisfaction. Settles found that women of color reported
+
+Chunk 177
+Figure 2. Balanced identity for students interested in computer science (Balance B). Negative
+associations between self and computer science, as well as gender and computer science. Suppressing
+computer science to make gender more important.
+Another form of balance (Balance C) can come from female students who have a strong
+association between themselves and computer science (Me = Computer Science), but weak associations
+
+Chunk 178
+mentors for the remainder of the club, sharing experiences and memories of what they have
+accomplished during the program. Additionally, this served as a way for the Senior students to share
+what their career or academic plans were after they graduate.
+Implicit Measures
+Implicit Association Test (IAT). This computerized task presents stimuli to the participant in the
+form of a word, such as Code, Algorithm, or Me. The participant sorts the stimuli into one of two
+
+Chunk 179
+science. In doing so, she protects herself from the stereotype threat by not associating with the female
+
+Chunk 180
+Figure 1. Balanced identity for students interested in computer science (Balance A). Positive associations
+between each of the constructs.
+A balanced identity (Balance B) can also reflect females who have positive associations with
+their gender (Me = Female), but do not associate themselves with computer science (Me ≠ Computer
+
+Chunk 181
+lower GPAs, lower science performance, and more depression. Additionally, she found that women who
+placed more importance on being women experienced greater interference between being a woman
+and being a computer scientist. Women who had greater identity interference reported lower selfesteem, greater depression, and decreased life satisfaction. Women-scientists may be able to increase
+self-esteem by leaving the science field, which may be a potential reason as to why women drop out of
+
+Chunk 182
+a computer scientist. Should these negative associations persist, they may be carried over into
+adulthood. Anxiety and stress may come from these relationships if there is a continued interest in
+computer science. In other words, the negative implicit association that females ≠ computer science
+continues into adulthood.
+Lane, Goh, and Driver-Linn (2011) conducted a study in which they examined implicit and
+
+Chunk 183
+suggesting that the students had balanced identities, similar to the previous model.
+The final model used the interaction of implicit ethnic identity attitudes and implicit science
+identity attitudes to predict implicit science-stereotypes attitudes (step 1), F (1, 168) = 13.99, p < .001,
+the predictors accounted for 8% of the variance. The second step included ethnic identity and science
+identity separately into the model, which accounted for 9%, F (3, 166) = 5.12, p = .002. Science identity
+
+Chunk 184
+To test the third set of hypotheses, bivariate correlations were conducted to examine the
+relationship between happiness and implicit computer science identity 8 and identity imbalance. As well
+as the relationship between happiness and an interest in a career in or in taking a class in computer
+science. Examining the relationship between happiness and implicit computer science identity (H3a)
+
+Chunk 185
+To test the third set of hypotheses, bivariate correlations were conducted to examine the
+relationship between happiness and implicit computer science identity and identity imbalance. As well
+as the relationship between happiness and an interest in a career in or in taking a class in computer
+science. Examining the relationship between happiness and implicit computer science identity (H3a)
+
+Chunk 186
+attendance. Having more schools and more students can help account for the low sample size.
+Additionally, investigations into reducing attrition should be looked into. Experiences and interactions
+with teachers that came from conducting this study have indicated that external responsibilities and
+conflicts have interfered with lack of consistent commitment (i.e., no transportation, sports, family
+responsibilities, work). Due to this reason, attrition may not be completely avoided, but further
+
+Chunk 187
+it so that is not a possibility. This may lead to a reduction in positive well-being because she cannot do
+what she is interested in. This adolescent is imbalanced such that she may have strong positive
+associations as a female while believing that females can be in computer science, but she is unable to
+identify as a computer scientist. She is unable to make this association because she is not given the
+opportunity to make it so.
+
+Chunk 188
+Analyses were also conducted using post-program data as these changes were expected to be greater at the end
+of the program. Additionally, mid-point survey data resulted in a slightly larger sample size n = 35, compared to the
+post-survey data n = 32.
+
+3
+
+Chunk 189
+may come from one of them. As these identities are seen as being related and compatible, the
+adolescent may have an easier time seeing females as being part of computer science (balance). This
+balance can then help them pursue a path to computer science, regardless of what the prevailing social
+stereotype states.
+Settles and colleagues (2002) also examined the effects of multiple identities on well-being. The
+
+Chunk 190
+The relationships were as expected, however, greater imbalances related to lower interest in
+classes and career options. It may be that these individuals do not identify with computer science,
+because either they do not see themselves fitting in and/or they do not see their gender fitting in. They
+may be using the norms as set by the social stereotype that men not women are part of computer
+science. They then use this to define what they can and cannot do (Ahlqvist, London, & Rosenthal, 2013;
+
+Chunk 191
+seeks to address this gap.
+It is expected that many high school females may be imbalanced due to the social stereotype
+that men, not women, belong in computer science. This may have a significant impact on girls’ chances
+to study and work in computer science, while also adding to the gender divergence in the field. By
+examining a younger population, it may be possible to understand if this identity imbalance begins
+
+Chunk 192
+strategies in the form of short activities that were developed in the lab. The girls participated in
+icebreakers to help them share who they are as well as allowing their fellow peers to make connections
+and find similarities. The remaining activities had the girls share their experiences, relate coding to
+themselves as well as to their career and life goals and interests. These helped them think about what
+
+Chunk 193
+A motivational approach to normative behavior. Society for Personality and Social Psychology,
+30(10), 1295-1309.
+Cohen, J. (1992). A power primer. Psychology Bulletin, 112(1), 155-159.
+
+Chunk 194
+Explicit Measures
+Happiness. The Subjective Happiness Scale (Lyubomirsky & Lepper, 1999) assessed how true
+each statement was for the participants using a four-items. Responses were on a seven-point Likert
+scale (α = .71; see Appendix A for items).
+Identity as a Computer Scientist. Identity as a computer scientist was assessed using a threeitem measure on an 11-point Likert Scale with responses ranging from 0 Completely Disagree to 10
+Completely agree (α = .76; see Appendix B for items).
+
+Chunk 195
+forms of recognition helped the girls see their successes and accomplishments as CodeQueens, as well
+as being able to show these to others. Most importantly, it allowed them to realize that these games
+were something that they developed on their own and with the help from others, further establishing
+their role as computer scientists.
+Finally, time three data were collected the week following the showcase in April. This third point
+
+Chunk 196
+implicit science-stereotype, r (101) = .20, p = .044 (see Table 3). These findings suggest that for those not
+in STEM, as imbalance increased these individuals identified more with their ethnic identity and had
+positive associations between their ethnicity and the sciences.
+In STEM. The relationships between identity imbalance and the IAT measures for participants in
+STEM were also examined. Identity imbalance for participants in STEM was not associated with
+
+Chunk 197
+Implicit Associations and Identities
+The implicit associations test (IAT; Greenwald et al., 1998) is a commonly used method to
+measure implicit associations between two constructs. The IAT is a computer-sorting task in which
+individuals place stimuli presented on the center of the screen (e.g., the words Algorithm or Literature)
+into categories set at the bottom of the screen (e.g., Computer Science and Me or Liberal Arts and
+
+Chunk 198
+part of the computer science field can create an identity threat. As the threat of pervasive stereotypes
+about women and underrepresented minorities (URMs) continue, these individuals may lose interest in
+computer science-related fields. This lack in the representation of women, particularly women of color,
+
+Chunk 199
+2017).
+This disidentification with computer science can lead individuals to drop out of the computer
+science pipeline, reducing gender diversity in the field (Woodcock, Hernandez, Estrada, & Schultz, 2012).
+This stereotype can lead women to question if they want to be or even can be competent computer
+scientists, making it difficult to identify as a computer scientist. By identifying as women and wanting to
+
+Chunk 200
+Table 3
+Bivariate correlations between the measures of interest and identity imbalance in the preliminary study for non-STEM involvement
+Not in STEM
+
+1
+
+1. Subjective Happiness
+
+-
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+2. Perceived Stress
+
+-.61**
+
+-
+
+3. Personal Joy in Work
+
+.58**
+
+-.45**
+
+-
+
+4. Trait Anxiety
+
+-.74**
+
+.81**
+
+-.52**
+
+-
+
+5. Ethnic Identity
+
+.29**
+
+-.18
+
+.22*
+
+-.26**
+
+-
+
+6. Science Identity
+
+.06
+
+-.14
+
+.25*
+
+-.14
+
+.17
+
+-
+
+7. Implicit Science Identity
+
+.07
+
+-.01
+
+-.11
+
+-.06
+
+-.03
+
+.26*
+
+-
+
+Chunk 201
+Christensen, Rothgerber, Wodd, & Matz, 2004).
+
+Chunk 202
+the relationship between the D1 and D2 scores. Positive D1 scores indicate that the individual quickly
+and accurately associates the stimuli into the stated category (e.g., Me and Computer Science) and
+positive D2 scores indicate that the ease of classification is stable across time.
+For the mid-survey data, it was found that D1 and D2 of gender identity IAT were significantly
+correlated, r (30) = .69, p < .001. Additionally, it was found that D1 and D2 were strongly positively
+
+Chunk 203
+computer science identities tended to be more interested in taking computer science classes.
+Additionally, results indicated that implicit computer science identity and long-term (career) interest in
+computer science were not significantly related (H1b), r (29) = .33, p = .077 (see Table 11).
+It should be noted that correlations revealed a relationship between short-term and long-term
+interest in computer science. Specifically, a strong positive correlation was found such that higher score
+
+Chunk 204
+individuals in the moratorium mode have narrowed down their interest to various options. They may be
+different from each other, but they generally achieve the same broad goal. For example, she knows that
+
+Chunk 205
+Greenwald, & Meltzoff, 2012; Greenwald et al., 2002; Greenwald, McGee, & Schwartz, 1998). Implicit
+associations are assessed through instruments measuring reaction times and errors when categorizing
+stimuli into matching labels (e.g., the Implicit Associations Test [IAT]). Specifically, the quick reactions
+and accuracy of sorting reflect more accurate associations between constructs. By giving the individuals
+
+Chunk 206
+the girls not falling into either category (unknown A 3.8%; Figure 17). Specifically, the majority of girls
+from the mid-survey data revealed that the girls were either imbalanced such that Female ≠ Computer
+Science (imbalance stereotype 30.8%) or such that Me ≠ Computer Science (imbalance A 30.8%). The
+remaining girls were balanced (A 19.2%; B 11.5%; C 3.8%; see Table 10 for the breakdown of the triads).
+
+Chunk 207
+Long-term (Career) Interest in Computer Science
+Int1. On a scale of 0 to 10, how interested are you in a computer science career someday?
+Int3. On a scale of 0 to 10, how interested are you in being a computer scientist someday?
+
+Chunk 208
+Figure 18. Unknown triad B where an individual had negative associations towards female and computer
+science as well as weak associations between female and computer science.
+Analyses
+To test the first set of hypotheses, bivariate correlations for 29 high school girls 7 were
+conducted to test if implicit computer science identity was related with an interest in a computer
+science career or an interest in taking computer science classes. Results indicated a statistically
+
+Chunk 209
+D� computer science = Dgender X DCSstereotype
+D� gender = DCSstereotype X Dcomputer science
+D� CSstereotype = Dcomputer science X Dgender
+Once each of the predicted scores is obtained, the actual score is subtracted from them. Once
+again, this is done three times, one for each IAT. This score is referred to as the difference score (D� diff),
+which can be positive, negative, or zero. The difference score calculations are as follows:
+
+Chunk 210
+science career or an interest in taking computer science classes. Results indicated a statistically
+significant relationship such that implicit computer science identity had a strong positive relationship
+with short-term (class) interest in computer science, r (29) = .37, p = .046 (H1a). Students with higher
+computer science identities tended to be more interested in taking computer science classes.
+
+Chunk 211
+imbalance also had lower interest in pursuing a career in the field, compared to girls who were not as
+happy, but still imbalanced. Future research should re-examine this in a larger sample to see if this
+relationship holds true for both short and long-term interest.
+Happiness may not have significantly moderated the relationship between the level of identity
+balance and interest in computer science, but it was found that implicit computer science identity and
+
+Chunk 212
+7
+
+(short-term) was strongly related to having an interest in pursuing a career in computer science (longterm; Table 11). Altogether, these results revealed that having positive implicit associations in computer
+science (Me = Computer Science) related to having interests in learning more about computer science.
+Table 11
+Bivariate correlations between the measures of interest and identity imbalance for the mid-survey
+1
+1. Subjective Happiness
+
+2. Implicit Computer Science Identity
+
+Chunk 213
+degrees earned by women in the United States have decreased (NSF, 2017). Additionally, the NSF
+reports that 49% of the nation’s scientists and engineers are White men, while White women make up
+the second largest portion at 18%. Asian men and women make up a combined 21% of science and
+engineering occupations. Men and women from Black, Hispanic, and other races make up the remaining
+12%. Specifically, about 2% of the nation’s engineering or computer scientists are Hispanic women (NSF,
+2017).
+
+Chunk 214
+placed on their female and computer science identities can be beneficial in overcoming the social
+stereotype. The social networks from each identity (friends and family as a female, classmates and
+fellow scientists as a computer scientist) can help in buffering stress and anxiety experienced from one
+identity. For example, it may be the case that she received a low score on her computer science quiz,
+
+Chunk 215
+Figure 10. An activity that was done during CodeQueens club meeting. This activity had the girls connect
+their names to traits and roles that best defined them.
+These activities occurred every two or three weeks and the mentors led the girls through the
+instructions. Members of the research attended these meetings to see how the girls and mentors
+reacted to the games. This helped establish what sorts of activities worked and which did not when we
+
+Chunk 216
+in short-term interest in computer science related to higher scores in long-term interest in computer
+science, r (35) = .86, p < .001. This indicated that having an interest in taking computer science classes
+
+Chunk 217
+balance or imbalance.
+The D-scores obtained from three separate IATs are used to examine the strength of the female
+students’ gender identity (Me = Female), computer science identity (Me = Computer Science), and
+computer science stereotype (Female = Computer Science). Which can be used to calculate imbalance.
+Identity imbalance may have implications for persistence in computer science and positive well-being.
+
+Chunk 218
+(161) = -.01, p = .931 and r (161) = .01, p = .868, respectively (Table 2). This suggests that being involved
+in STEM-related fields was associated with higher levels of implicit science identity, but not ethnic
+identity or science-stereotype. Individuals in STEM fields implicitly identified more like scientists.
+This study was conducted with adults who may have established their career and educational
+
+Chunk 219
+end of the program. The strength of this relationship may have been reflective of a large impact on
+computer science based on the positive effects of the CodeQueens club. Continued participation in a
+program designed to reinforce and sustain interest in computer science may lead to stronger
+identification and self-efficacy a computer scientist.
+The relationships were as expected, however, greater imbalances related to lower interest in
+
+Chunk 220
+age may help in reinforcing the already positive associations and potentially changing the negative
+implicit associations.
+Adolescent Identity Development
+A growing body of research has examined underrepresented minority (URM) college students’
+science and ethnic identity development, as well as their interests in STEM fields (Hernandez, Estrada,
+Woodcock, & Schultz, In Press; Schultz et al., 2011; Woodcock et al., 2012). This research has been
+
+Chunk 221
+identify as a computer scientist, women can challenge the negative social stereotype, keeping more
+women in the computer science pipeline.
+These statistics may provide insight as to how the gender-computer science stereotypes deter
+women away from STEM fields. Having a strong STEM identity is crucial to success and persistence in the
+sciences (Woodcock et al., 2012). However, the prevailing social stereotype that men, not women, are
+
+Chunk 222
+other words, the combination of two constructs should be the only significant predictor of the third
+construct, as opposed to each construct separately predicting the third.
+
+Chunk 223
+outside of school and we could not ethically force them to attend every club meeting and data collection
+session. Efforts were made, however, to collect as much data from the girls who were unable to attend
+these sessions. Though this affected the overall findings of this study, to our knowledge is one of the
+firsts to examine identity imbalance and its relation to happiness and identity in girls interested in
+
+Chunk 224
+such that Me = Computer Science, whereas more negative indicate weaker associations, such that Me ≠
+Computer Science. These scores are obtained from each of the three IATs (gender identity, computer
+science identity, and the gender-computer science relationship) and are used to categorize the identity
+
+Chunk 225
+t (166) = .15, p = .88. Once again, the interaction between ethnic identity and science identity can
+significantly predict ethnic-science stereotypes.
+Identity Imbalance Correlates. We calculated imbalance scores for our sample to examine the
+relations between identity imbalance and measures of well-being (perceived stress, subjective
+happiness, joy in work; see Table 2). Initial analyses revealed that identity imbalance was very positively
+
+Chunk 226
+CALIFORNIA STATE UNIVERSITY SAN MARCOS
+THESIS SIGNATURE PAGE
+THESIS SUBMITTED IN PARTIAL FULFILLMENT
+OF THE REQUIREMENTS FOR THE DEGREE
+MASTER OF ARTS
+IN
+PSYCHOLOGICAL SCIENCE
+THESIS TITLE: Hacking the Stereotype: The Relationship Between Computer Science Identity Imbalance
+and Happiness in High School Girls
+
+AUTHOR:
+
+Rodolfo Ramon Rodriguez Jr.
+
+DATE OF SUCCESSFUL DEFENSE:
+
+October 22, 2018
+
+Chunk 227
+interest in taking computer science classes or choosing a career in computer science during the middle
+of the program. Happiness did not have an influence on short-term interest. It was found, however, that
+happiness did have an influence on the relationship between the level of identity imbalance and having
+an interest in a career in computer science. In other words, the girls who were very happy and high in
+
+Chunk 228
+the identity imbalance and trait anxiety, r (170) = -.03, p = .666. These correlates suggest that were no
+significant relationships between the identity imbalance and the measures of positive or negative wellbeing. Additionally, results suggested that there was no significant relation between identity imbalance
+and STEM involvement, r (163) = .08, p = .292, working in the sciences did not reflect an individual’s
+identity imbalance (Table 2).
+
+Chunk 229
+1. In general, I consider myself:
+Not a very happy person 1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7 A very happy person
+
+2. Compared with most of my peers, I consider myself:
+Less happy 1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7 More happy
+
+3. Some people are generally very happy. They enjoy life regardless of what is going on, getting the
+most out of everything. To what extent does this characterization describe you?
+Not at all 1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7 A great deal
+
+Chunk 230
+gender and computer science. As she engages in clubs and activities that bolster her interest in
+computer science, she continues along the path to a career in computer science. She may encounter
+obstacles along the way (e.g., not being accepted to the college of her choice, lack of females in her
+computer science classes), but she does not let them deter her. By having this support and positive
+mindset at a young age, she is able to carry this into adulthood allowing her to challenge the social
+
+Chunk 231
+http://www.afhayes.com/ public/process2012.pdf
+Hernandez, P.R., Estrada, M, Woodcock, A, & Schultz, P.W. (In Press). Mentor qualities that matter: The
+importance of perceived (not demographic) similarity. Research in Higher Education.
+Hirsh, J. B., & Kang, S. K. (2016). Mechanisms of identity conflict: Uncertainty, anxiety, and the
+behavioral inhibition system. Personality and Social Psychology Review, 20(3), 223-244.
+
+Chunk 232
+Similar to the mid-survey, a strong positive correlation between short-term and long-term
+interest in computer science was found. Specifically, higher scores in short-term interest in computer
+science related to higher scores in long-term interest in computer science, r (32)= .72, p < .001. This
+indicated that having an interest in taking computer science classes (short-term) is strongly related to
+having an interest in pursuing a career in computer science (long-term, see Table 12).
+
+Chunk 233
+identities (athletes and students). Brook and colleagues conducted their study with individuals who
+reported multiple important identities. The differences in how the researchers collected identities can
+make it difficult to understand the effects of multiple identities on well-being. Unfortunately, the
+research varies as to what is more beneficial to positive well-being, separating important identities, or
+
+Chunk 234
+Females interested in computer science may see their gender and computer science identities
+as being important to them. In combination with their other important identities (friend, sibling,
+daughter, etc.) they are able to use these to help support one another and buffer any negativity that
+
+Chunk 235
+Computer Science Stereotype)
+
+Triads (n = 26)
+
+Triads (n = 19)
+
+Balance A (+ + +)
+
+19.3%
+
+26.2%
+
+Balance B (+ - +)
+
+11.5%
+
+5.3%
+
+Balance C (- + -)
+
+3.8%
+
+15.8%
+
+Balance Total
+
+34.5%
+
+47.4%
+
+Imbalance Stereotype (+ + -)
+
+30.8%
+
+21.1%
+
+Imbalance A (+ - +)
+
+30.8%
+
+5.3%
+
+Imbalance B (- + +)
+
+-
+
+10.5%
+
+Total Imbalance
+
+61.6%
+
+36.9%
+
+Unknown A (- - -)
+
+3.8%
+
+-
+
+Unknown B (- - +)
+
+-
+
+15.8%
+
+Total Unknown
+
+3.8%
+
+15.8%
+
+Chunk 236
+identity imbalance, and well-being look like after attending a 16-week long intervention. Additionally,
+mid-point data had 26 points of complete IAT data (the girls who did all three tests with acceptable
+accuracy), while post-survey data had 19 points of complete IAT data 4. The majority of the sample selfidentified as Latina (69%), while the remaining self-identified as White (23%), Asian (2%), and having
+
+Chunk 237
+association between self and computer science (Me = Computer Science). Positive scores reflect
+stronger associations towards a computer science identity. Negative scores, alternatively, reflect
+negative associations between self and computer science such that the individual does not identify as a
+computer scientist (Me = Humanities).
+Implicit Gender Identity. This IAT measured how strongly the person associates themselves
+
+Chunk 238
+Settles’ (2002) study were already in their chosen careers and they experience low levels of life
+satisfaction and positive well-being. It may be that these negative associations stemmed from their
+youth. For high school adolescents interested in computer science, having this negative stereotype
+influence their decisions may lead to reductions in positive well-being at a young age.
+By changing how these associations are perceived on an implicit level, balance can be achieved,
+
+Chunk 239
+feels in that moment, as opposed to how she thinks and feels overall. Additionally, there may be
+variations in responses based on what the individual thinks the answers should be. These factors can
+lead to inaccurately measuring what the individual actually believes (Greenwald et al., 2002).
+Implicit measures, alternatively, are less susceptible to bias and reporting errors (Cvencek,
+Greenwald, & Meltzoff, 2012; Greenwald et al., 2002; Greenwald, McGee, & Schwartz, 1998). Implicit
+
+Chunk 240
+Preliminary analyses for post-survey data were conducted to view distributions and descriptive
+statistics of the variables. Histograms revealed that interest in a taking computer science classes (shortterm) had a slight negative distribution (-0.46). Interest in a career in computer science (long-term)
+
+Chunk 241
+form of a word, such as Code, Algorithm, or Me. The participant sorts the stimuli into one of two
+categories on screen. The D scores allow us to quantitatively measure implicit associations. The D scores
+range from -2 to +2, where more positive scores reflect more positive associations (e.g., Me = Computer
+Science) and negative scores reflect weaker associations (e.g., Me ≠ Computer Science). The scores are
+
+Chunk 242
+Cohen, S., Kamarck, T., Mermelstein, R. (1983). A global measure of perceived stress. Journal of Health
+and Social Behavior, 24(4), 385-396.
+Crocetti, E., Rubini, M., Luyckx, K., & Meeus, W. (2008). Identity formation in early and middle
+adolescents from various ethnic groups: From three dimensions to five statuses. Journal of
+Youth and Adolescence, 37(8), 983-996.
+Cvencek, D., Greenwald, A. G., & Meltzoff, A. N. (2012). Balanced identity theory: Review of evidence for
+
+Chunk 243
+with one another across individuals (Greenwald et al., 1998). Greenwald and colleagues (1998) initially
+tested various stimuli to test if sorting these stimuli into categories is a reliable way to measure implicit
+associations. They tested undergraduate psychology students and how they sorted flower and insect
+names or weapon and musical instrument names as being pleasant or unpleasant sounding. They found
+
+Chunk 244
+Similar analyses were also conducted for the post-survey data. To test the first set of
+hypotheses, bivariate correlations for 23 high school girls were conducted to test if implicit computer
+science identity was related with interest in computer science classes (H1a) or an interest in a computer
+science career (H1b). No statistically significant relationships were found between implicit computer
+
+Chunk 245
+6
+
+C 15.8%). The majority of the imbalanced individuals fell into the imbalance stereotype triad (21.1%) and
+the remaining were imbalanced (A 5.3%; B 10.5%). No further analyses were conducted using these data
+(see Table 10 for the breakdown of the triads).
+Table 10
+Breakdown of balance and imbalance triads for the mid and post-surveys
+Triad (Gender, Computer Science, Gender-
+
+Mid-Survey
+
+Post-Survey
+
+Computer Science Stereotype)
+
+Triads (n = 26)
+
+Triads (n = 19)
+
+Balance A (+ + +)
+
+19.3%
+
+Chunk 246
+female adolescents from eight high schools are participating in the project (n = 84). The majority selfidentified as Latina (75%) and are in their Junior year of high school (39%). Most of the girls are new
+members to project (74%) and the remaining were returning CodeQueens from the past two years. This
+inclusion of three additional schools, as well as 16 more students, can help in better understating
+changes and relationships between the variables of interest.
+
+Chunk 247
+into categories set at the bottom of the screen (e.g., Computer Science and Me or Liberal Arts and
+Others). The speed and accuracy of sorting the stimuli are used to quantify the strength of the implicit
+associations or identities. The quicker and more accurately the individual sorts the stimuli, the higher
+their score will be; this reflects a stronger association. Slower and/or inaccurate responses, in turn, lead
+
+Chunk 248
+Any downsides encountered have led to significant positive changes for the current CodeQueens
+club project. We were able to learn that success can more easily be obtained when the project meets
+the girls at their level of interest and commitment and then work up from there. Difficulties start to arise
+when the girls are expected to meet us at our levels of commitment. For the current CodeQueens club,
+
+Chunk 249
+skewed. Logarithm transformations were conducted to adjust this and as such the data become more
+normal (n = 170, M = -0.29, SD = 0.28; see Figure 7 for distribution). We ran bivariate correlates between
+the imbalance scores and the explicit and implicit measures. We predicted that URMs with less
+imbalance would have more positive well-being and less negative well-being. Well-being was assessed
+using four measures: perceived stress (Cohen, Kamarck, & Merlmestein, 1983), subjective happiness
+
+Chunk 250
+average identity imbalance score of .71. This score was lower than the mid-survey, potentially indicating
+more balance, but the sample size was smaller (19 girls in the post compared to the 29 girls in the midsurvey).
+
+Chunk 251
+To better understand balance and imbalance in our sample, we categorized each student into a
+triad reflecting the kind of balance or imbalance she fit into. These triads were developed using their IAT
+scores as stated by Greenwald and colleagues (2002) 6. We found that for the mid-survey data (n = 29),
+the majority of the girls were imbalanced (61.6%) and the remaining were balanced (34.5%); with one of
+
+Chunk 252
+fields. This study examined science identity and was used as a platform to better understand computer
+science identity.
+Balanced and Imbalanced Identity Configurations
+A balanced identity may reflect females interested in computer science who strongly positively
+associate themselves with their gender (Me = Female; gender identity), themselves to computer science
+(Me = Computer Science; computer science identity), and their gender to computer science (Female =
+
+Chunk 253
+male dominate one. This helps reinforce both female and computer science identities while weakening
+the stereotype threat.
+
+Chunk 254
+Spielberger, Gorsuch, Luchene, Vagg, & Jacobs, 1983). The subjective happiness scale was used to
+measure the perceived level of happiness an individual has felt over the past month and higher scores
+indicated higher levels of happiness (Lyubomirsky & Lepper, 1999). Finally, we measured joy in work
+using a scale that asked participants to rate (on a scale of 1 Not at all like me to 6 Very much like me)
+
+Chunk 255
+Short-term (Class) Interest in Computer Science
+Int2. On a scale of 0 to 10, how interested are you in taking computer science classes at college
+someday?
+Int4. On a scale of 0 to 10, how interested are you in taking classes that help you learn more about
+computer science?
+ID1. I am sure that I can learn programming.
+Completely Disagree 0 1
+Completely Agree
+Appendix E
+
+Chunk 256
+It is plausible that identity imbalance may deter girls from pursuing a career in computer
+science. This contradiction between important identities comes from having strong positive implicit
+associations between self and computer science (Me = Computer Science), strong positive implicit
+associations between self and gender (Me = Female), but weak positive associations between gender
+and computer science (Female ≠ Computer Science). She cannot identify as a female if she identifies as
+
+Chunk 257
+Results indicated a non-significant correlation between identity imbalance and subjective
+happiness, r (170) = .01, p = .931. Correlations between identity imbalance and joy in work were also
+non-significant, r (170) = .11, p = .153. There were also non-significant correlations between identity
+imbalance and perceived stress, r (170) = .04, p = .58, as well as a non-significant relationship between
+
+Chunk 258
+college, they were asked what career they were in and if it was science related (mathematician,
+computer scientist, etc.).
+These survey data were compared with additional data requested from the National Student
+Clearing House ([NSC] 2017). This provided information about what colleges the participants attended,
+what they majored in, and when they graduated. This information was coded to reflect if participants
+
+Chunk 259
+Post-Survey
+D1
+
+Computer
+
+Gender-Computer
+
+Science Identity
+
+Science Stereotype
+
+D2
+
+D2
+
+D2
+
+.69**
+
+.58**
+
+.54**
+
+(30)
+
+(33)
+
+(32)
+
+D2
+
+D2
+
+D2
+
+.32
+
+.47*
+
+-.06
+
+(28)
+
+(27)
+
+(25)
+
+Chunk 260
+female and being a computer scientist is an important part of who they are. They may go on to state
+that females can be a part of the computer science field, both as explicit statements. Unfortunately,
+negative implicit associations may actually suggest that the individual does not strongly associate being
+female with being a computer scientist.
+Explicit associations are typically measured via self-reports scales. Individuals report how they
+
+Chunk 261
+correlated with one another for both the computer science IAT (r (33) = .58, p < .001) and the gendercomputer science stereotype IAT (r (32) = .54, p = .001) 5. For the post-survey, D1 and D2 scores of the
+computer science identity test were positively correlated with one another (r (27) = .47, p = .02). D1 and
+D2 scores for the gender IAT and the gender-computer science stereotype were not significantly
+
+Chunk 262
+imbalance. In order to calculate imbalance, the interaction between IAT scores from two of the tests is
+used to predict the scores of the third. This is done three times, in order to predict the scores for each
+IAT. Using D� to represent the identity being predicted and D to represent the actual scores obtained
+from the IAT, the following can be used to calculate an expected score for each of the IATs:
+
+Chunk 263
+D2 scores for the gender IAT and the gender-computer science stereotype were not significantly
+correlated with one another (r (28) = .32, p = .101 and r (25) = -.06, p = .786, respectively; see Table 7 for
+descriptive statistics and Table 8 for correlations).
+
+Chunk 264
+Table 1
+Statistics for explicit measures from the preliminary study
+M
+
+SD
+
+α
+
+Trait Anxiety
+
+1.95
+
+0.54
+
+.94
+
+Happiness
+
+5.28
+
+1.26
+
+.89
+
+Stress
+
+2.56
+
+0.69
+
+.88
+
+Joy in Work
+
+4.71
+
+1.06
+
+.92
+
+Science Identity
+
+4.45
+
+0.56
+
+.92
+
+Ethnic Identity
+
+3.87
+
+0.82
+
+.88
+
+Chunk 265
+For example, negative stereotypes about females in the science field may influence women to associate
+less as a scientist, potentially leading to drop out.
+Nosek and colleagues (2002) examined the relationship between gender identity and math
+identity. Specifically, they examined how being part of a group that reinforces females in math
+influences the strength of the female and math identity. Whether or not a stereotype is believed at the
+
+Chunk 266
+they could achieve with computer science, furthering their level of self-efficacy as a coder, but also their
+identity towards computer science.
+These activities were modified from existing activities to reflect aspects of computer science
+(e.g., what is interesting about it, how it can be used to help people). The activities also made it so that
+the girls linked their own personalities and traits to computer science. For example, one of the activities
+
+Chunk 267
+measures the strength of association between male and female (gender self-concept). These stimuli
+were taken from well-established and validated measures from previous research using the same and
+similar tests. Stimuli for the humanities category were taken from tests that used items associated with
+liberal arts and arts. Using this principle, the stimuli used for computer science were obtained based on
+
+Chunk 268
+they measured well-being in the form of self-esteem, perceived stress, and depressive symptoms, and
+compared these measures with the identity measures.
+They found that athletes who saw their identities as being equally important reported higher
+levels of self-esteem and lower levels of depression. When the students had positive experiences in one
+identity but not in the other (good grade on a test, but poor practice the same day), the student-athletes
+
+Chunk 269
+associations between self and gender (gender identity) as well as gender and science (science
+stereotype). They found that men, compared to women, were more likely to consider pursuing a career
+in a science related field. Additionally, they found that men and women who had strong associations
+between their gender and science were more likely to pursue a career in the science field. Moreover,
+they found that women who had strongly identified towards their gender and had strong associations
+
+Chunk 270
+Three separate IATs were used: computer science identity, gender identity, and the stereotypic
+association between computer science and gender (Female = Computer Science). Each IAT consists of
+seven blocks: three practice blocks and four test blocks. The practice blocks show the stimuli (in the
+center of the screen) and the categories (presented on the bottom left and right of the screen) that they
+
+Chunk 271
+Finally, time three data were collected the week following the showcase in April. This third point
+of data collection was done at each of the high schools during the last CodeQueens Club meeting. This
+was a way to celebrate the end of the year as well as their accomplishments during the program. The
+girls completed the survey at the start of the meeting and then interacted with each other and the
+mentors for the remainder of the club, sharing experiences and memories of what they have
+
+Chunk 272
+As previously mentioned, the Implicit Associations Test (IAT) uses reaction time and accuracy
+when sorting stimuli to provide a score for the individual. This score is referred to as the D-score and
+ranges from -2 to +2, positive scores indicating a strong positive relationship between the constructs,
+such that Me = Computer Science, whereas more negative indicate weaker associations, such that Me ≠
+
+Chunk 273
+D� diffcomputer science = D� computer science - Dcomputer science
+D� diffgender = D� gender – Dgender
+D� CSstereotype = D� CSstereotype - DCSstereotype
+These scores are then averaged out and the absolute value determines the range of imbalance.
+Specifically, imbalance scores are interpreted as such: scores less than .0999 are considered balanced,
+scores from .1 to .4999 reflect a small imbalance, scores ranging from .5 to .7999 are moderately
+
+Chunk 274
+made using the associations between constructs to create a visualization of balance and imbalanced
+identities. Constructs are ideas or mental concepts that are given meaning by an individual (e.g. self,
+gender, computer science). Strong associations between the constructs of self and computer science, for
+example, represent an individual’s computer science identity (Me = Computer Science). Associations
+between self and gender represent the individual’s gender identity (Me = Female). Similarly,
+
+Chunk 275
+short and long-term interests was assessed as well. Additionally, the relationships between happiness
+and implicit levels of computer science, identity imbalance and interest in computer science were also
+examined. Studying high school girls allowed us to examine if the emergence of identity is related to
+implicit associations and well-being.
+Adolescent females from five high schools participated in an after-school extended hackathon
+
+Chunk 276
+balance may be related to lower levels of anxiety and higher levels of well-being because of the
+individual positively associating gender and computer science as being compatible, as well as seeing
+themselves as being part of their gender group and as a scientist (Hirsh & Kang, 2016).
+
+Chunk 277
+association between themselves and computer science (Me = Computer Science), but weak associations
+between themselves and their gender (Me ≠ Female), and their gender and computer science (Female ≠
+Computer Science; see Figure 3). In this case, the individual is pushing down her gender identity and is
+making her computer science identity more important. By suppressing the female identity, the
+adolescent focuses on being a computer scientist but does not associate females as a part of computer
+
+Chunk 278
+Time two data were collected in the middle of the program (mid-survey data; week 10). The girls
+took a midday field trip to CSUSM. During the event, they were introduced to different students and
+professionals in the computer science industry, who were all women. Small seating arrangements were
+made so that pairs of speakers could sit with the girls and talk about their experiences. This gave the
+
+Chunk 279
+Sample sizes for analyses involving IATs vary due to incomplete IAT for each for each of the girls. In other words,
+not all of the girls completed each of the IATs or had useable data based on a minimum of 70% correct in
+responses.
+
+7
+
+Chunk 280
+comments.
+The mentors taught the girls how to code and led the interventions that were used to help
+develop and strengthen the girls’ sense of computer science identity and self-efficacy. Additionally, the
+mentors served as role models and were equally split such that half of the mentors were female. This
+helped create a better image of what a computer scientist looks like. The mentors began sharing their
+
+Chunk 281
+Implicit Gender Identity. This IAT measured how strongly the person associates themselves
+towards the stated gender (female), the stronger the association the more the individual identifies with
+their gender (Me = Female). Weaker associations, in turn, reflect poorer identification towards the
+female gender (Me ≠ Female).
+Gender-Computer Science Stereotypes IAT. The gender-computer science IAT measured the
+
+Chunk 282
+members. They had formed teams near the end of the first half of the program, though some chose to
+work alone, and what challenges to address (Sole Effect or EcoLife). Each project had a station set up
+and time blocks were set so that the guests and judges could view and interact with each game. The
+CodeQueens presented what challenge they chose to address, how their game worked, what inspired
+them to make their game, and what challenges and success they encountered during the development
+
+Chunk 283
+Journal of Environmental Psychology, 30(1), 95-102.
+Burke, P. J., (1991). Identity processes and social stress. American Sociological Review, 56(6), 836-849.
+Chemers, M. M., Zubriggen, E. L., Syed, M., Goza, B. K., & Bearman, S. (2011). The role of efficacy and
+identity in science career commitment among underrepresented minority students. Journal of
+Social Issues, 67(3), 469-491.
+Christensen, P. N., Rothgerber, H., Wood, W., & Matz, D. C. (2004). Social norms and identity relevance:
+
+Chunk 284
+computer science, computer science self-efficacy, and computer science identity. Participants followed a
+link to take three implicit associations tests (IATs; gender identity, computer science identity, and
+computer science stereotypes) that were presented in a random order. During this event, the girls were
+introduced to the project coordinators, the computer science mentors that would teach them coding, as
+
+Chunk 285
+Greenwald, A. G., Banaji, M. R., Nosek, B. A., Teachman, B., & Nock, M. (2011). Gender-Science IAT.
+Retrieved from Project Implicit website: https://implicit.harvard.edu/implicit/Study?tid=-1
+Greenwald, A. G., Banaji, M. R., Rudman, L. R., Farnham, S. D., Nosek, B. A., & Mellott, D. S. (2002). A
+unified theory of implicit attitudes, stereotypes, self-esteem, and self-concepts. Psychological
+Review, 109(1), 3-25.
+
+Chunk 286
+says that computer science is a male discipline, the adolescent may change internal norms and remove
+computer science as a career option, reinforcing the stereotype (Burke, 1991). By attempting a match
+between internal and external norms, the adolescent tries to achieve identity balance. Achieving this
+balance may reduce the tension that the adolescent has between the conflicting norms and concepts.
+If there is a strong association towards a group (computer science), the adolescent’s identity
+
+Chunk 287
+Review, 109(1), 3-25.
+Greenwald, A. G., Banaji, M. R., Rudman, L. R., Farnham, S. D., Nosek, B. A., & Rosier, M. (2000).
+Prologue to a unified theory of attitudes, stereotypes, and self-control. In J. P. Forgas (Ed.),
+Feeling and thinking: The role of affect in social cognition and behavior (pp. 308-330). New York,
+NY, US: Cambridge University Press.
+Greenwald, A. G., McGhee, D. E., & Schwartz, J. L. K. (1998). Measuring individual differences in implicit
+
+Chunk 288
+individual may reduce conflict by making both identities important and relevant to the situation (female
+computer scientist; Hirsh & Kang, 2016), achieving balance in the process.
+In order to reinforce these important identities (Female and Computer Science), she may need
+to be exposed to others who share her interest. One way to do so is by attending events that support
+these identities. A Hackathon is an event that brings together individuals from various backgrounds,
+
+Chunk 289
+field (Hirsh & Kang, 2016).
+associations between self and computer science. The students associate their gender to computer
+science but do not associate themselves to computer science.
+Conversely, an imbalanced identity can also occur when there are weak associations between
+self and gender (Me ≠ Female), but not between self and computer science (Me = Computer Science) or
+gender and computer science (Female = Computer Science; Imbalance B see Figure 6). In this case, the
+
+Chunk 290
+Take for example a nursing student. When she is in class, her identity as a student is made
+salient, she is focused on the lecture and study material. Once the class is over and she begins her work
+in the hospital, her identity as a nurse becomes salient. She positively associates herself with being both
+a student and a nurse, these identities are seen as being compatible. Additionally, she has no concerns
+
+Chunk 291
+some sort of balance between them. If the adolescent female cannot be a computer scientist, maybe
+she can be a computer science teacher (Hirsh & Kang, 2016). By doing so, the adolescent abandons her
+computer science identity, while retaining a strong gender identity and the gender-science stereotype.
+Brook and colleagues (2008) examined the effects that multiple roles have on well-being.
+Undergraduate participants had to list at least two identities in order to examine identity harmony
+
+Chunk 292
+they found that women who had strongly identified towards their gender and had strong associations
+between their gender and science more likely to pursue a career in science.
+This study was conducted in an adult population and similar associations may be made by
+female adolescents. Specifically, positive implicit associations between self and gender (Me = Female)
+and the stereotype (Female = Science) may begin at a young age and then carry over into adulthood.
+
+Chunk 293
+Settles and colleagues (2002) also examined the effects of multiple identities on well-being. The
+researchers examined student-athletes and assessed their athletic identity and their academic
+importance. They also measured well-being using self-esteem, perceived stress, and depression scales.
+They found that athletes, who saw their academic performance as being important, were more likely to
+
+Chunk 294
+experience higher levels of anxiety, compared to boys (Crocetti et al., 2008) and this uncertainty may be
+suggestive of imbalanced identities. This may be that by not knowing where they fit in, the adolescents
+may not identify as being part of certain groups. By not knowing what to pursue, the adolescents may
+develop a sense of anxiety, similar to individuals in the identity diffusion and moratorium modes.
+
+Chunk 295
+Lane, Goh, and Driver-Linn (2011) conducted a study in which they examined implicit and
+explicit associations and how they relate to intentions to pursue science-related fields. The researchers
+gave first-year undergraduate students explicit and implicit measures relating to gender identity, science
+identity, and the gender-science stereotype. Specifically, they used two separate IATs to assess implicit
+
+Chunk 296
+category is affected the most or the least from interventions and experiences with computer science.
+This may help in increasing the impact of intervention programs by refining the exercises used as well as
+being more direct and effective for the students participating.
+
+Chunk 297
+test: II method variables and construct validity. Personality and Social Psychology Bulletin, 31,
+166-180.
+Nosek, B. A., Banaji, M. R., & Greenwald, A. G. (2002). Math = male, me = female, therefore math ≠
+me. Journal of Personality and Social Psychology, 83(1), 44-59.
+Phinney, J. S & Ong, A. D. (2007). Conceptualization and measurement of ethnic identity: Current status
+and future directions. Journal of Counseling Psychology, 54(3), 271-281.
+
+Chunk 298
+Table of Contents
+Abstract 4
+Hacking the Stereotype: The Relationship Between Computer Science Identity Imbalance and Happiness in High School Girls 5
+Identity 6
+Identity Balance 7
+Implicit Associations and Identities 9
+Balanced and Imbalanced Identity Configurations 11
+Multiple Social Identities 16
+Adolescent Identity Development 19
+Identity Development and Well-Being 22
+Development of a Computer Science Identity 24
+Positive Well-Being 26
+A New Way to Measure Identity Imbalance 28
+
+Chunk 299
+adolescent reflects a triad opposite to the previously mentioned one. Instead of dis-identifying as a
+computer scientist, she dis-identifies as a female. Due to the stereotype, in order to be a part of the
+computer science field, she has to make her gender identity the least important and focus on being a
+computer scientist (Hirsh & Kang, 2016). To her, being a female is not necessarily important in being a
+computer scientist, especially in a male-dominated field.
+
+Chunk 300
+are switched. Block 7 is the final test block and is similar to block 6 but the category locations on the
+screen are swapped (see Table 5 for stimuli, Table 6 for block formatting, and Figure 11 for IAT
+screenshot).
+
+Chunk 301
+Strongly Disagree to 4 Strongly Agree; see Table 1).
+The survey also included various self-report measures that helped provide insight into current
+STEM participation. These questions asked participants about their highest degree obtained and if they
+were still in school or began working, as well as how long they have been doing so. To understand the
+success of science majors (biology, chemistry, engineering, etc.) they were asked the number of science
+
+Chunk 302
+girls an opportunity to ask questions about potential paths, obstacles faced and overcome, and advice to
+be successful in the field. There were multiple stations and the girls had an opportunity to go to every
+station and socialize with each of the guests. This gave them a wide range of viewpoints and advice from
+people who are in different parts of their career, ranging from academic careers to professional careers.
+
+Chunk 303
+continue, it may be possible to see if this interest exists at the start of the program and if it increases
+and remains strong over time. Though more research needs to be done in a longitudinal setting to see
+how this relationship persists as the girls transition into a college and career setting.
+Unfortunately, no evidence was found to support the hypotheses that level of identity
+imbalance related to an interest in taking computer science classes (short-term) or having a career in
+
+Chunk 304
+Post-Survey
+D2
+
+D1
+
+D2
+
+M
+
+SD
+
+M
+
+SD
+
+M
+
+SD
+
+M
+
+SD
+
+Gender IAT
+
+0.43
+
+1.16
+
+0.29
+
+0.98
+
+0.22
+
+0.75
+
+0.19
+
+1.27
+
+Computer Science IAT
+
+-0.02
+
+1.25
+
+-0.10
+
+0.73
+
+0.28
+
+0.96
+
+0.32
+
+1.43
+
+Gender-Computer Science
+
+-0.06
+
+1.88
+
+-0.01
+
+0.89
+
+0.23
+
+0.98
+
+0.24
+
+0.92
+
+Stereotype
+
+Table 8
+Bivariate correlations between D1 and D2 for each IAT for the mid and post-surveys
+Gender Identity
+
+Mid-Survey
+D1
+
+Post-Survey
+D1
+
+Computer
+
+Gender-Computer
+
+Science Identity
+
+Science Stereotype
+
+D2
+
+D2
+
+D2
+
+.69**
+
+Chunk 305
+were able to use the positive experiences of the student identity to support any loss of well-being from
+the athlete identity. This research supports the theory that multiple important identities are beneficial
+to well-being.
+In the case of high school girls interested in computer science, having this equal importance
+placed on their female and computer science identities can be beneficial in overcoming the social
+
+Chunk 306
+over the past month, with higher scores indicating higher levels of stress (Cohen, Kamarck, &
+Merlmestein, 1983). The trait anxiety scale of the State and Trait Anxiety Measure (STAI) was used to
+assess how anxious the participants generally feel (higher scores indicated higher levels of trait anxiety;
+Spielberger, Gorsuch, Luchene, Vagg, & Jacobs, 1983). The subjective happiness scale was used to
+
+Chunk 307
+Gender-Computer Science Stereotypes IAT. The gender-computer science IAT measured the
+implicit relationship between gender and computer science (Female = Computer Science). Higher scores
+indicate a more positive association between the two constructs such that females are associated with
+being in computer science. Negative scores indicate weak relationships between the two such that
+individuals do not see females as being part of computer science (Female ≠ Computer Science).
+Explicit Measures
+
+Chunk 308
+does not let the stereotype influence her ideas that females cannot be in computer science, but she
+does not reflect this belief in herself. It may be due to a perceived lack of ability and competence in the
+field that deters her from achieving a full balance. This can then lead to an increase in stress and anxiety
+from this believed contradictory set of identities because she does net herself as being successful in the
+field (Hirsh & Kang, 2016).
+
+Chunk 309
+there are any significant mediators in this relationship. This may help in further developing strategies
+and interventions designed to increase and sustain interest in taking computer science classes and
+following in the computer science career path.
+This study has found that implicit levels of computer science are related to interest in computer
+science in both short-term and long-term. This leads into one of the limitations of the study: sample size.
+
+Chunk 310
+their own game that addressed one of the challenges from the Hackathon. These games would then be
+presented to a panel of judges composed of community members and individuals who worked in the
+
+Chunk 311
+the stimuli used in the math and science categories. In other words, the stimuli Numbers, Equations, and
+Computations were used for the math category and we used Code, Algorithm, and Software (Greenwald,
+Banaji, Nosek, Teachman, & Nock, 2011; Nosek, Banaji, & Greenwald, 2002; Nosek, Greenwald, & Banaji,
+2005; Smyth & Nosek, 2016). There are various iterations of the IAT that vary in length. Specifically,
+
+Chunk 312
+relationship between imbalance and joy in work, r (101) = .17, p = .096. For the anxiety and stress
+measures, no significant correlations were found, r (101) = -.14, p = .172 and r (101) = -.09, p = .382,
+respectively. This indicated that identity imbalance for individuals not in STEM was not significantly
+associated with either positive or negative well-being.
+
+Chunk 313
+Hacking the Stereotype: The Relationship Between Computer Science Identity Imbalance and Happiness
+in High School Girls
+Female students are widely underrepresented in most science, technology, engineering, and
+mathematics (STEM) bachelor’s degrees, including computer science (National Science Foundation
+[NSF], 2017). Over the past 10 years, the number and proportion of computer science bachelor’s
+degrees earned by women in the United States have decreased (NSF, 2017). Additionally, the NSF
+
+Chunk 314
+are to be sorted into (see Figure 11). Test blocks are used to create the IAT scores. Each of the IATs has
+the identical ordering of the blocks: two practice, two tests, one practice, and finally two tests. Block 1
+used pronouns that correspond to self (e.g., Me, I) or other (e.g., Them, Theirs). In block 2, participants
+sorted words that correspond to computer science (e.g., Coding, Algorithm) or humanities (e.g., Classics,
+
+Chunk 315
+The latter strategy of integrating relevant identities seems to be the most effective. By doing so,
+both identities are made important, potentially making it easier to achieve balance. Hirsh and Kang
+(2016) suggested various strategies that an individual may take in order to help reduce the tension and
+conflict that may come from having multiple social identities. They state that when an individual is in a
+
+Chunk 316
+continued into the third week to account for anyone who was absent or recently joined the club within
+that time. These changes may help in better understanding changes in attitudes and identities in
+adolescent females interested in computer science.
+Importantly, what this study has also found was that there is some evidence to show that
+intervention programs designed to increase interest in computer science, such as CodeQueens can, in
+
+Chunk 317
+From both the mid and the post-time points, class interest (short-term) and career interest
+(long-term) in computer science were found to be positively related. These findings suggest that interest
+in learning about and pursuing a career in computer science are sustained over a period of time. Future
+research should examine if this significantly changes across the 16-weeks of the CodeQueens Club and if
+
+Chunk 318
+Female), positive attitudes about the gender computer science stereotype exist (Female = Computer
+Science), but there are weak associations between self and computer science (Me ≠ Computer Science;
+Imbalance A see Figure 5). In this case, the adolescent interested in computer science does not identify
+as being a computer scientist, but positively associates females with being part of computer science. She
+
+Chunk 319
+using four measures: perceived stress (Cohen, Kamarck, & Merlmestein, 1983), subjective happiness
+(Lyubomirsky & Lepper, 1999), a joy in work scale developed in the lab, and the trait anxiety using the
+State and Trait Anxiety Inventory (Spielberger et al., 1983).
+
+Chunk 320
+Art). The third block had the participants sort the words into a combination of these categories (i.e., Me
+or Computer Science and Others or Liberal Arts). Block 4 is the test block and is similar to block 3 except
+that the categories swap positions on the screen. Block 5 is similar to block 2, but the positioning of the
+categories is swapped. Block 6 is the final practice block and is similar to block 3, but the category pairs
+
+Chunk 321
+that being a student interferes with being a nurse or vice versa. Due to this balance, there is no cognitive
+discomfort from identifying with these groups. She is able to balance and perform her responsibilities
+from both roles.
+Alternatively, identities can also be imbalanced or incompatible. Individuals with imbalanced
+identities may strongly associate with two important identities separately. Unfortunately, there is
+
+Chunk 322
+towards a potential career, how much they have explored other potential careers, and if they had any
+thoughts about reconsidering their career choices. Results showed that high levels of anxiety were
+associated with a decrease in commitment and an increase in reconsideration in career choice over
+time. In other words, the less committed the adolescents were to a career choice, the more anxious
+they felt. This lack of commitment may lead to more reconsideration. Girls were more likely to
+
+Chunk 323
+ID1. I am sure that I can learn programming.
+Completely Disagree 0 1
+
+2
+Completely Agree
+ID2. On a scale of 0 to 10, how much do you feel that you would belong in the field of computer science?
+ID3. On a scale of 0 to 10, how much do you think that a computer scientist is someone like you?
+Appendix C
+Interest in Computer Science
+
+Chunk 324
+Undergraduate participants had to list at least two identities in order to examine identity harmony
+(compatibility). Additionally, the participants filled out measures of well-being in the form of depression,
+anxiety and perceived stress scales.
+Brook and colleagues (2008) found that when identities supported one another (balance),
+individuals reported having higher levels of positive well-being, compared imbalanced individuals.
+
+Chunk 325
+prevailing social stereotype that men belong in computer science, not women, it can become difficult to
+unconsciously positively associate females with computer science. It is through this dis-association
+
+Chunk 326
+were both more imbalanced in their identities and identified more with their stated ethnicity on an
+implicit level. Unfortunately, neither imbalance nor STEM involvement was significantly associated with
+the measures of positive and negative well-being.
+These measures and relations were examined in adults who had already pursued careers, either
+
+Chunk 327
+STEM were also examined. Identity imbalance for participants in STEM was not associated with
+subjective happiness, r (62) = -.08, p = .553, joy in work, r (62) = -.01, p = .942, or with anxiety, r (62) =
+.11, p = .3761. Identity imbalance was found to be related with stress, r (101) = .29, p = .023 (Table 4).
+These results suggested imbalance had no significant relationship with well-being but it did with stress
+such that the more imbalanced the individual the more stressed the individual was.
+
+Chunk 328
+able to see themselves as being part of STEM fields. As this interest remains over time, the adolescents
+may continue to pursue this path, leading to gender and ethnic diversification in STEM careers, in this
+case, computer science.
+As this interest remains and is pursued, a positive feedback loop may come into place. As young
+women interested in computer science participate in programs such as CodeQueens, they may
+
+Chunk 329
+had the girls make literal connections from their names to any roles or traits that defined them. As they
+did so, they were able to see how they are similar to their teammates and how to best split the work
+when developing their game so that each role plays to their strengths (see Figure 10).
+
+Chunk 330
+Int1. On a scale of 0 to 10, how interested are you in a computer science career someday?
+Int2. On a scale of 0 to 10, how interested are you in taking computer science classes at college
+someday?
+Int3. On a scale of 0 to 10, how interested are you in being a computer scientist someday?
+Int4. On a scale of 0 to 10, how interested are you in taking classes that help you learn more about
+computer science?
+Appendix D
+
+Chunk 331
+a short amount of time the automatic response, therefore unconscious response is captured before a
+conscious response can occur.
+
+Chunk 332
+women interested in computer science participate in programs such as CodeQueens, they may
+participate in or develop similar interventions. This brings in more young women interested in computer
+science, further diversifying the field, who may then come to develop their own programs. This loop
+creates a larger interest in the field, potentially reducing the gender gap and reducing the effects of the
+social stereotype that men not women are computer scientists.
+References
+
+Chunk 333
+These blocks give us two sets of scores that are then used to show the overall score for each IAT.
+This final score comes from the average of the scores come from the practice blocks (D1 scores) and the
+scores from the test blocks (D2 scores). Greenwald and colleagues (2002) state that it will be easier for
+the participant to sort the stimuli when there are only two categories. For example, the stimuli
+
+Chunk 334
+develop a sense of anxiety, similar to individuals in the identity diffusion and moratorium modes.
+This may be reflective of girls who are interested in computer science but feel as if they cannot
+do so. This may be due to the stereotype, or it may be due to external factors that prevent them from
+pursuing the field. They explore different career options and this may then overwhelm the adolescent
+
+Chunk 335
+Of the 35 girls who did the mid-point survey only 26 completed all three IATs, while only 19 girls had done all
+three IATs out of the 32 girls in post-survey.
+4
+
+Chunk 336
+example, they are able to focus on coding without having to worry about their other classes or
+assignments. The time spent in the club can be used as a way to do something that they find enjoyable
+and beneficial to their future. They use this time to escape their worries, even if for a few hours, and
+
+Chunk 337
+Not in STEM. To better understand these relationships, we split the data and ran similar
+analyses for individuals who were in STEM fields (career or educational; n = 101) and those who were
+not (n = 62; these data were obtained from the NSC database) 2. There was a non-significant relationship
+between imbalance and subjective happiness, r (101) = .05, p = .658. There was also no significant
+relationship between imbalance and joy in work, r (101) = .17, p = .096. For the anxiety and stress
+
+Chunk 338
+the pleasantness and unpleasantness of Japanese and Korean surnames. Additionally, they tested the
+associations that White and Black individuals had between the pleasantness and unpleasantness of
+common White and Black first names. For both of these studies, the findings were as expected:
+individuals associated their own race as being pleasant compared to the other race.
+These studies support the theory that constructs commonly related to categories can be used to
+
+Chunk 339
+were developing future games. Visiting the club meetings also helped see how the mentors and girls
+interacted with one another. As the program continued, it became apparent that the mentors had
+developed a good rapport with the girls, even becoming friends with many of them. Additionally, the
+girls became friends with one another and shared their interest and skills when developing their games.
+
+Chunk 340
+There is a prevailing strong social stereotype that men, not women, belong in computer science. These
+negative implicit associations between computer science and females may be enough to deter women
+from pursuing the field. Previous research has examined the impact of implicit (unconscious) and explicit
+associations and identity imbalance on interest in computer science careers in adult populations.
+
+Chunk 341
+identities may strongly associate with two important identities separately. Unfortunately, there is
+tension when associating these two together, often due to prevailing social stereotypes. A female
+interested in computer science may be reflective of this imbalance. She identifies as being a female
+(gender identity), while also identifying as a computer scientist (computer science identity). Due to the
+
+Chunk 342
+Balance may be achieved depending on how she associates her gender with her prospective career
+choices. The choices that she has may not be interesting or important to her. Should she be in a position
+that requires her to pick one and follow through may lead to distress and negative well-being, because
+she is not satisfied with what she has chosen.
+
+Chunk 343
+intervention programs designed to increase interest in computer science, such as CodeQueens can, in
+fact, be effective. Programs such as these create an interest, or further strengthen an existing interest,
+in computer science. By doing so, female adolescents are able to expand their career options and be
+
+Chunk 344
+conferences they attended as well as how many awards they had received. If they were not attending
+
+Chunk 345
+back to campus for the mid-point data collection, occurred. These situations could not be accounted for
+(e.g., sports, family responsibilities, no reliable transportation) and only about 35 girls (51% attrition
+from the pre-survey) attended the mid-point survey, as well as regularly attending the club meetings.
+Finally, similar reasons resulted in 32 girls (47% attrition from pre-survey) attending the final point of
+
+Chunk 346
+study examined how implicit associations are related to interest in taking computer science classes
+(short-term interest) and pursuing a career in computer science (long-term interest). Using a new
+method, identity imbalance was measured based on scores from three implicit associations tests (IATs);
+gender identity, computer science identity, and implicit gender-computer science associations or
+stereotypes. Participants were 35 high school girls enrolled in an extended hackathon after-school
+
+Chunk 347
+These measures and relations were examined in adults who had already pursued careers, either
+in or out of STEM. The findings were non-significant, but we expected that examining identity and wellbeing in adolescents would provide insight as to how identity influences well-being and interest in
+computer science at a younger age. Specifically, we examined identity imbalance and happiness in high
+school girls and their implicit associations towards computer science, gender, and the gender-computer
+
+Chunk 348
+interest in computer science were significantly related. Examining this relationship again but adding
+happiness as a moderator may provide insight as to how positive well-being influences this relationship,
+if at all. Doing so may help in providing evidence that having fun while being exposed to computer
+science can further strengthen this relationship. This can lead to the development and expansion of
+intervention programs such as CodeQueens.
+
+Chunk 349
+because they’re not sure of what to pursue. This, in turn, may then lead to stress and anxiety. It may
+also be that the adolescent it not overwhelmed, but rather they but they do not know what to pursue.
+They have many interests but they are unsure as to which one will lead to a sense of happiness, as well
+as a sense of acceptance. As this negative stereotype about women and computer science persists, it
+may deter them from pursuing this path, if not as a career choice.
+
+Chunk 350
+be reflective of the imbalance triads previously mentioned (see Figures 4-6 for imbalanced triads). For
+the girls in the mid-survey sample, the average balance score was .79 (n = 29). This indicated that most
+of the girls were largely imbalanced at this time point.
+
+Chunk 351
+identity.
+As previously mentioned, the negative social stereotype may make it difficult for females to
+pursue a career in computer science. Having these negative thoughts and beliefs will not only deter
+them from following this path, but it may also persist as they reach adulthood. This may lead to stress
+and discomfort in wanting to identify with their gender and computer science. Males, on the other
+
+Chunk 352
+Not only were the girls exposed to professionals, but they also had the opportunity to tour the campus
+and see what it is like to be at college. This gave them an idea of what college is like and what they can
+do after high school, bolstering any ideas about continuing computer science after high school.
+During week 15 of the program, the girls attended the Showcase. Here they presented the
+games that they had been developing over the second half of the program to judges, friends, and family
+
+Chunk 353
+Current Study
+The current study examined the effects of a 16-week after school computer science and coding
+program (extended hackathon). Specifically, it examined how implicit computer science identities in high
+school girls related to an interest in short-term (taking computer science classes) and long-term
+(computer science careers) interest in computer science. How an imbalanced identity related to these
+
+Chunk 354
+industry during the Showcase at the end of April. During this time the mentors shifted roles from
+instructors to advisors. The girls had learned what they needed to get started and the whole club
+meeting was used to develop their games. Some of the girls wanted to create actions that were not
+taught, others wanted to use a new program entirely. Regardless of their decisions, they were able to
+complete their games and the mentors realized that the girls were gradually becoming less dependent
+
+Chunk 355
+stereotypes. Participants were 35 high school girls enrolled in an extended hackathon after-school
+program (CodeQueens) that took place over 16 weeks. This program was designed to teach the girls how
+to code as well as instilling a sense of self-efficacy in computer science, identity as computer scientists
+(Me = Computer Science), and interest in learning more about computer science and potentially
+
+Chunk 356
+responsibilities, work). Due to this reason, attrition may not be completely avoided, but further
+scheduling, planning, and encouragement may help make programs similar to CodeQueens an important
+part of the girls’ responsibilities.
+Additionally, this program was designed for underrepresented girls, especially Latinas. These
+results only reflect their levels of associations but having a comparison group may help in providing
+
+Chunk 357
+complete their games and the mentors realized that the girls were gradually becoming less dependent
+on their guidance.
+Throughout the 16 weeks, the students were given examples of real-world coding projects and
+they learned the foundations that led to the development of the process. During this time, the girls
+related what they have learned to their own personal goals and values. This was done via intervention
+
+Chunk 358
+Science) or their gender with computer science (Female ≠ Computer Science; see Figure 2). This
+adolescent has an interest in computer science and identifies as a female. No positive associations
+towards being a computer scientist, or of females as being a part of computer science are made. In
+order to protect herself from the stereotype threat she identifies as a female, but makes no relation
+towards computer science, nor does she see females as being part of computer science (Hirsh & Kang,
+
+Chunk 359
+the participant to sort the stimuli when there are only two categories. For example, the stimuli
+Algorithm can easily be sorted into the Computer Science category, compared to the Humanities
+category. Additionally, it is theorized that the individual will have an easier time sorting stimulus into
+categories that have a concept that is most strongly related to that stimuli. For example, if the stimuli
+
+Chunk 360
+own interests, career goals, and personalities and the girls began to relate more to them. Not only that,
+the girls were exposed to different career and educational options that they may not have thought
+possible when they first began.
+During the second half of the program, the girls created teams and worked together to create
+their own game that addressed one of the challenges from the Hackathon. These games would then be
+
+Chunk 361
+even though she is upset she is not deterred. Having friends to talk to can help her learn new study tips,
+while also distracting her from dwelling on the negative. Alternatively, an argument at home between
+siblings can also cause stress, but when in class she is focused and engaged because she is involved in
+something that she cares about. Similarly, the class provides a distraction and a way to clear her head
+before returning home.
+
+Chunk 362
+explicit level, it may be strong at the implicit level. In other words, implicit attitudes can affect the
+performance and impact that stereotypes have, even if they are not explicitly endorsed (Nosek et al.,
+2002). Even if females explicitly state that females can be a part of the computer science community,
+implicit attitudes that computer science is a male dominant field may hinder the development of the
+computer science identity (Me = Computer Science).
+
+Chunk 363
+such as this.
+
+Chunk 364
+computer science identity (Me = Computer Science).
+Development of a Computer Science Identity
+By taking different classes at school, the adolescent may come to develop an interest in
+computer science. She is aware of the stereotype involving women and computer science, but she
+explicitly states that women can be a part of computer science. A few of her friends are also interested
+in computer science, but most are not. She and her small group take computer science classes together,
+
+Chunk 365
+computer science and coding. The questions asked in this study may be used as a starting point to
+further investigate how interventions programs that are designed to help break down stereotypes can
+
+Chunk 366
+(Me = Computer Science; computer science identity), and their gender to computer science (Female =
+Computer Science; gender-computer science stereotype; see Figure 1). High school girls who have an
+interest in computer science and do not let the stereotype interfere may successfully pursue a path in
+the field. There may be some stress from the stereotype, but it is not enough to deter them. This form of
+
+Chunk 367
+and discomfort in wanting to identify with their gender and computer science. Males, on the other
+hand, do not necessarily experience this. A male student who identifies as a computer scientist may find
+the gender and computer science social identities as being balanced. This balance allows for a sense of
+belonging to computer science, due to a lack of stress and tension from belonging to both of these
+groups (Hirsh & Kang, 2016).
+
+Chunk 368
+associations and identity imbalance on interest in computer science careers in adult populations.
+Though, to date, none has examined this relationship in adolescents. The present study examined how
+implicit gender and computer science associations in adolescent girls related to subjective happiness,
+the gender-computer science stereotype, as well as the imbalance between them. Additionally, this
+study examined how implicit associations are related to interest in taking computer science classes
+
+Chunk 369
+roles in academics and sports. They surveyed male and female athletes from various intercollegiate
+sports and assessed their athletic identity and academic importance using self-report measures.
+Additionally, they measured the degree to which the student-athletes perceived their athletic and
+academic identities as interfering with one another, as well as being separate from one another. Finally,
+they measured well-being in the form of self-esteem, perceived stress, and depressive symptoms, and
+
+Chunk 370
+A student who has many options to choose from may by considering a career in computer
+science. She takes classes and is exposed to what the field has to offer. Unfortunately, because of the
+stereotype and the abundance of potential options, she may choose a field that does not come with
+stress and contradictions due to being a female in the field. It may also be that the student does have an
+interest in computer science but outside influences have not made that an option to choose from.
+
+Chunk 371
+levels of experience, and ages. During this event, these individuals use coding and computer science as
+they work together to solve real-world issues. These events bring together male and female coders, but
+there are also All-Girl Hackathons. By attending these events, the girls are able to see that they are not
+the only females interested in computer science. More importantly, they learn that the field is not a
+
+Chunk 372
+Identity Development and Well-Being
+Seeking to investigate the relationship between anxiety and identity development, Crocetti and
+colleagues (2008) asked junior high and high school adolescents about their levels of anxiety and at
+what stage they were at in terms of choosing a career. The researchers tested whether anxiety could be
+a potential risk factor in identity formation. They asked the adolescents about their level of commitment
+
+Chunk 373
+were working in non-STEM-related fields. Since 2005, we surveyed participants bi-annually (fall and
+spring) about their interests, experiences, achievements, and career choices.
+For this preliminary study, we used various explicit measures to assess well-being. We used the
+perceived stress scale to measure the participants’ subjective level of stress that they have experienced
+over the past month, with higher scores indicating higher levels of stress (Cohen, Kamarck, &
+
+Chunk 374
+computer science, and happiness relate to one another in adolescent girls interested in computer
+science. These findings can then be used to strengthen and further develop intervention programs, such
+as CodeQueens, that are designed to introduce computer science to underrepresented adolescent
+females.
+This study was conducted at five local high schools and a few girls from each school were in
+attendance. Having more schools and more students can help account for the low sample size.
+
+Chunk 375
+situation, due to an obstacle that interferes with this expression. Females who want to become
+computer scientists may become interrupted by the stereotype that computer science is a maledominated field. As female adolescents take computer science classes, they may come to believe that
+computer science is not for females. This negative mindset can come from seeing her computer classes
+being predominately made up of male students, having male computer science instructors, and not
+
+Chunk 376
+there is no outlet or buffer for the person (Settles et al., 2002).
+Female computer science students may find it difficult to integrate their gender and computer
+science identities. In order to overcome any distress, they may separate their identities and designate
+times and days to make being a computer scientist important. During an after-school coding club, for
+example, they are able to focus on coding without having to worry about their other classes or
+
+Chunk 377
+between self and gender represent the individual’s gender identity (Me = Female). Similarly,
+associations between computer science and gender represent the strength of the gender-computer
+science association (Female = Computer Science; Computer Science stereotype). Unfortunately, this
+often reflects prevailing social stereotypes (Female ≠ Computer Science). How strongly someone
+associates themselves with a construct reflects the level of importance or salience for that given
+identity.
+
+Chunk 378
+but they notice that they are the only females in the class. At first, this does not affect her and her
+
+Chunk 379
+computer scientist, especially in a male-dominated field.
+associations between self and gender. The students associate their gender to computer science but do
+not associate themselves to their gender.
+Imbalanced adolescents may be unsure of themselves and what they can do and offer. They
+may identify as computer scientists, but because of the stereotype, it is difficult for them to see
+themselves as both female and as computer scientists. It may be this contradiction in wanting to be a
+
+Chunk 380
+see these roles as being separate. If these roles interfered with one another, the responsibilities of being
+a student made it difficult to complete the responsibilities of being an athlete, the participants reported
+more stress and more depressive symptoms. A student-athlete may find it easier to balance roles by
+having different designated days for practice and studying. In other words, by having this separation of
+
+Chunk 381
+Undergraduate mentors were undergraduate computer science students from California State
+University, San Marcos. Pairs of mentors went to each school and taught the students how to code using
+chrome books (provided by the classrooms) and the Microsoft program TouchDevelop. This program
+used drag and drop, as well as written commands, to write and share lines of code. The interface
+allowed the girls to create projects and share them with each other, while also providing feedback and
+comments.
+
+Chunk 382
+their gender (Me = Female) and with computer science (Me = Computer Science) but have weak
+associations with their gender being part of computer science (Female ≠ Computer Science; Imbalance
+stereotype see Figure 4). In this case, females do not implicitly associate their gender to computer
+science, even though they may explicitly confirm that females can be in computer science. These
+adolescents strongly identify as female and as computer scientists, but the stereotype and other
+
+Chunk 383
+that flower and musical instrument names were associated with being pleasant sounding, while insect
+and weapon names were associated with being unpleasant sounding. To get a better understanding of
+attitudes and stereotypes, they ran two other experiments with the same concept of universal
+associations. They tested the associations that Japanese-Americans and Korean-Americans had between
+the pleasantness and unpleasantness of Japanese and Korean surnames. Additionally, they tested the
+
+Chunk 384
+Adolescent females from five high schools participated in an after-school extended hackathon
+program that was designed to create interest in computer science (CodeQueens). This program taught
+the fundamentals of coding while completing activities that developed a sense of computer science selfefficacy (I can do computer science) and computer science identity (I can belong in the field of computer
+science). Teaching these students computer science methods as well as providing them with guidance
+
+Chunk 385
+stereotype.
+Results from the analyses reported in this study have shown that the strength of implicit
+associations towards computer science (Me = Computer Science) in high school girls was related to the
+level of interest in taking computer science classes as well as pursuing a career in computer science (H1)
+in the middle of the program. In other words, the more that the girls associate themselves to computer
+
+Chunk 386
+2
+
+STEM data were not available for the remaining participants.
+
+Chunk 387
+well as the program that they would be using for the duration of the after-school club.
+After the Hackathon, the girls began participating in an after-school program, titled
+CodeQueens, that introduced them to computer science. During the first half of the program, the girls
+were taught the fundamentals of coding and how to develop the building blocks of basic commands.
+Undergraduate mentors were undergraduate computer science students from California State
+
+Chunk 388
+adolescents strongly identify as female and as computer scientists, but the stereotype and other
+external factors make it difficult for them to associate their gender as being a part of computer science.
+In doing so, there may be tension from this sense of discomfort of being a female computer scientist.
+
+Chunk 389
+interested the individual is in taking computer science classes or pursuing a career in computer science.
+
+Chunk 390
+them to make their game, and what challenges and success they encountered during the development
+process. At the end of their presentations, the girls had their audience play their games as well as ask
+questions about their games.
+Judges came together and awarded teams based on various categories (e.g., creativity,
+complexity, addressing the challenge). Additionally, the mentors also gave awards to individual students,
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> ls
+Step-3-store-vecotors-using-hnsw.py  Step-4-query-llm-w-hnsw.py
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> 
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> 
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> pwd
+/Users/ehill/ai-playground/streamlit-fastapi-w-chatgpt-api/backend/Arxiv-to-Vectorstore-for-RAG/MMR-method
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> 
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> 
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> open . 
+(venv) ehill@Mac ~/a/s/b/A/MMR-method (sandbox)> 
