@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Code Trails — Is cosine simulairty a Hoax?</title>
+    <title>Code Trails — Is cosine similarity a Hoax?</title>
     <meta name="description" content="Rendered blog post" />
     <style>
       :root { --bg:#ffffff; --fg:#030202; --muted:#6b7280; --divider:#e5e7eb; --maxw: 900px; }
@@ -37,24 +37,10 @@
     <script id="md" type="text/markdown">
 
 
-
-
-
-```
-3rd - Investigating HNSW's and MMR - Math Hour 
-		Show the graph theory behind it. 
-		Algorithmic process behind it
-		MMR
-
-```
-
-## Uncovering the truth
-Previously in [my last blog post](https://git-mosis.github.io/code-trails/posts/Sept-1-25-understanding-cosine-simularity.html), we looked at why embedding models are imperative to semantic meaning. Today we be taking a closer look at using modern embeddings and their results. 
-
 ## It all started with a paper
 Years ago, I found https://arxiv.org/pdf/1806.07366 that caught my attention. I wanted to see how David Duvenaud's research has progressed.
 
-I decided to build a RAG pipeline. My workflow takes Duvenaud's academic papers, splits them into chunks, embeds them with Hugging Face models like `all-MiniLM-L6-v2`, and stores them in a vectorstore. For fast search, I’m using an HNSW index under the hood. The goal is simple: when I ask a question, I want my retriever to give me the most relevant, answers of text from the document to feed into an LLM. However first, I want to understand the retreval of text from the vector database. 
+I decided to build a RAG pipeline. My workflow takes Duvenaud's academic papers, splits them into chunks, embeds them with Hugging Face models like `all-MiniLM-L6-v2`, and stores them in a vectorstore. For fast search, I’m using an HNSW index under the hood. The goal is simple: when I ask a question, I want my retriever to give me the most relevant, answers of text from the document to feed into an LLM. However first, I want to understand the retrieval of text from the vector database. 
 
 
     </script>
