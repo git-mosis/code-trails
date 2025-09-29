@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Code Trails — Is cosine similarity a Hoax?</title>
+    <meta name="description" content="Rendered blog post" />
+    <style>
+      :root { --bg:#ffffff; --fg:#030202; --muted:#6b7280; --divider:#e5e7eb; --maxw: 900px; }
+      * { box-sizing: border-box; }
+      body { margin:0; font-family: ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial; color:var(--fg); background:var(--bg); line-height:1.6; }
+      .wrap { max-width: var(--maxw); margin: 0 auto; padding: 28px 20px 64px; }
+      header h1 { font-size: clamp(28px, 4.5vw, 42px); margin: 6px 0 18px; letter-spacing: -0.01em; }
+      .meta { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+      article img { max-width: 100%; height: auto; border-radius: 4px; }
+      article pre { background:#0f172a; color:#e2e8f0; padding:12px 14px; overflow:auto; border-radius:6px; }
+      article code { background:#f3f4f6; padding: 0 4px; border-radius: 3px; }
+      /* Ensure fenced code blocks are readable (no light background inside pre) */
+      article pre code { background: transparent; padding: 0; color: inherit; }
+      article h2 { font-size: 1.6rem; margin-top: 1.8rem; }
+      article h3 { font-size: 1.3rem; margin-top: 1.4rem; }
+      article h4 { font-size: 1.1rem; margin-top: 1.1rem; }
+      article p { margin: 0.7rem 0; }
+      article ul { padding-left: 1.2rem; }
+      hr { border: 0; border-top: 1px solid var(--divider); margin: 18px 0; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1 id="post-title">HNSW and MMR - A Shallow Dive</h1>
+        <div class="meta">By Elsa Hill — September 20, 2025</div>
+      </header>
+      <article id="post"></article>
+    </div>
+
+    <script id="md" type="text/markdown">
+
+
+## Uncovering the truth
+Previously in [my last blog post](https://git-mosis.github.io/code-trails/posts/Sept-18-25-is-cosine-simularity-a-hoax.html), we looked at 
+why embedding models are imperative to semantic meaning. Today we'll be taking a closer look at a brief explination of HNSW and MMR.
+
+#### HNSW - At a high level
+
+From the analogy created by [Ajay Mallya in this post](https://medium.com/@amallya0523/hnsw-algorithm-efficiently-searching-vector-databases-9276a934393d),
+On a map of California zoomed out, when mapping a route from LA to San Francisco, you don't see every detail on the map. 
+When zooming in, you see more steps to get from LA to San Francisco than from when you are zoomed in. This intuition is the same with HNSW's. 
+Zoomed out, there are less steps (less nodes and edges) and when zoomed in, you see more steps (with nodes and edges zoomed in).  
+
+#### HNSW - At the next level 
+To setup HNSW, we need to define a few parameters:
+- **M**: The maximum number of connections (or edges) each node can have. 
+- **ef_construction**: The size of the dynamic list for the nearest neighbors during the index construction phase. A higher value leads to better accuracy but increases construction time.
+- **ef**: The size of the dynamic list for the nearest neighbors during the search phase. A higher value improves search accuracy but increases search time.
+- **Layer**: Each node is assigned a layer based on a random distribution, typically following an exponential decay. Higher levels have fewer nodes, creating a hierarchical structure.
+
+#### HNSW - How it works
+1. **Insertion**: When a new vector is added to the index, it is assigned a random layer. The insertion process starts from the topmost layer and works its way down to the bottom layer. At each layer, the algorithm searches for the closest node to the new vector and connectss it to that node if the maximum number of connections (M) has not been reached. If M is reached, it replaces the farthest connection if the new vector is closer.
+
+2. **Search**: To find the nearest neighbors of a query vector, the search starts from the topmost layer. The algorithm navigates through the graph by moving to the closest node at each layer until it reaches the bottom layer. At the bottom layer, it performs a more exhaustive search within the ef parameter to find the closest vectors.
+
+3. **Efficiency**: HNSW is efficient because it reduces the number of distance calculations needed to find nearest neighbors. The hierarchical structure allows for quick navigation through the graph, and the use of a dynamic list (ef, which is the size of the dynamic list for the nearest neighbors) helps in maintaining a balance between search accuracy and speed.
+
+#### Navigating each layer 
+With that setup in mind, you can think of HNSW as zooming out at the right level to get to San Francisco from LA, and as you get closer, you can zoom in to get to the final destination. 
+
+At it's core, all the vectors that are inserted **exist** in the bottom layer. For the higher layer above that, a subset or **smaller percentage of vectors** are inserted. Then at the highest layer, an even smaller amount of nodes and vectors are present. 
+
+![Cosine Similarity Diagram](blog-images/hnsw-at-3-layers.png)
+[Image source here](https://medium.com/@amallya0523/hnsw-algorithm-efficiently-searching-vector-databases-9276a934393d)
+
+## MMR - Maximal Marginal Relevance
+MMR is a technique used in information retrieval and natural language processing to enhance the diversity of search results. The goal of MMR is to select a set of documents or items that are not only
+
+  </script>
+
+    <script>
+      function resolveUrl(url, baseDir) {
+        if (/^(https?:)?\/\//i.test(url) || url.startsWith('/') ) return url;
+        return baseDir + url.replace(/^\.\//, '');
+      }
+
+      function renderMarkdown(md, baseDir) {
+        md = md.replace(/[&<>]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[ch]));
+        md = md.replace(/\r\n?/g, '\n');
+
+        // Code blocks ```...```
+        md = md.replace(/```([\s\S]*?)```/g, (m, code) => '<pre><code>' + code.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</code></pre>');
+
+        // Inline code
+        md = md.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+        md = md.replace(/!\[([^\]\n]*)\]\(([^)]+)\)/g, (m, alt, src) => `<img alt="${alt}" src="${resolveUrl(src, baseDir)}">`);
+        // Restrict links to avoid accidental multi-paragraph captures
+        md = md.replace(/\[([^\]\n]+)\]\(([^)\s]+)\)/g, (m, text, href) => `<a href="${resolveUrl(href, baseDir)}" target="_blank" rel="noopener">${text}</a>`);
+        md = md.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+        md = md.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+        const lines = md.split('\n');
+        const out = [];
+        let inList = false; let para = [];
+        const flushPara = () => { if (para.length) { out.push('<p>' + para.join(' ').trim() + '</p>'); para = []; } };
+        for (let i=0;i<lines.length;i++) {
+          const line = lines[i];
+          if (!line.trim()) { if (inList) { out.push('</ul>'); inList=false; } flushPara(); continue; }
+          if (/^---\s*$/.test(line)) { if (inList) { out.push('</ul>'); inList=false; } flushPara(); out.push('<hr>'); continue; }
+          if (/^####\s+/.test(line)) { if (inList) { out.push('</ul>'); inList=false; } flushPara(); out.push('<h4>' + line.replace(/^####\s+/, '') + '</h4>'); continue; }
+          if (/^###\s+/.test(line))  { if (inList) { out.push('</ul>'); inList=false; } flushPara(); out.push('<h3>' + line.replace(/^###\s+/, '') + '</h3>'); continue; }
+          if (/^##\s+/.test(line))   { if (inList) { out.push('</ul>'); inList=false; } flushPara(); out.push('<h2>' + line.replace(/^\#\#\s+/, '') + '</h2>'); continue; }
+          const li = line.match(/^\s*-\s+(.*)$/);
+          if (li) { flushPara(); if (!inList) { out.push('<ul>'); inList=true; } out.push('<li>' + li[1] + '</li>'); continue; }
+          para.push(line.trim());
+        }
+        if (inList) out.push('</ul>');
+        flushPara();
+        return out.join('\n');
+      }
+
+      (function(){
+        const md = document.getElementById('md').textContent;
+        const baseDir = '../';
+        document.getElementById('post').innerHTML = renderMarkdown(md, baseDir);
+      })();
+    </script>
+  </body>
+  </html>

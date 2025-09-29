@@ -27,7 +27,7 @@
   <body>
     <div class="wrap">
       <header>
-        <h1 id="post-title">Is Cosine Simularity a Hoax? </h1>
+        <h1 id="post-title">Is Cosine Similarity a Hoax?</h1>
         <div class="meta">By Elsa Hill — September 18, 2025</div>
       </header>
       <article id="post"></article>
@@ -37,7 +37,7 @@
 
 ## Introduction
 
-When building question‑answering systems, the first step is often to break a long document into smaller pieces, embed them as vectors, and later retrieve the relevant chunks. Different chunking and retrieval strategies can dramatically change which text chunks are surfaced. Initially when I saw results, I concluded cosine simularity wasn't working. However what was later relieveled was it isn't Cosine Simularity, but which embedding models you choose really matters. 
+When building question‑answering systems, the first step is often to break a long document into smaller pieces, embed them as vectors, and later retrieve the relevant chunks. Different chunking and retrieval strategies can dramatically change which text chunks are surfaced. Initially when I saw results, I concluded cosine similarity wasn't working. However what was later revealed was it isn't cosine similarity, but which embedding models you choose really matters. 
 
 To start, let's check what different types of techniques there are. 
 
@@ -53,13 +53,13 @@ I evaluated three approaches below:
 
 2. HNSW with maximal marginal relevance (MMR) also using fixed-size chunking. 
 
-3. A hybrid method combining bm25 and an e5 encoding model with reranking with dynamic chunking of variable length with aproximate 10% to 20% text overlap. 
+3. A hybrid method combining bm25 and an e5 encoding model with reranking with dynamic chunking of variable length with approximate 10% to 20% text overlap. 
 
 This post examines how each method chunks the target documents and the impact on relevance. 
 
 ## Data and Methodology
 
-To start, I looked for content I would have a good basis of understanding on. I browsed a lot and finally found something I felt confident about, a thesis on women in computer science. Convienent (so I don't have to dig into a new topic), academic, and the paper's methodology is sound. I stripped out all the math symbols and created a Thesis‑On‑Gender‑In‑CS.txt document. (todo - link to .txt file)
+To start, I looked for content I would have a good basis of understanding on. I browsed a lot and finally found something I felt confident about, a thesis on women in computer science. Convenient (so I don't have to dig into a new topic), academic, and the paper's methodology is sound. I stripped out all the math symbols and created a Thesis‑On‑Gender‑In‑CS.txt document. (todo - link to .txt file)
 
 ### Approaches at a Glance
 
@@ -72,7 +72,7 @@ To start, I looked for content I would have a good basis of understanding on. I 
 ## Chunking Analysis
 ### Cosine baseline 
 
-I created a vectorstore and used the following embedding model: `sentence-transformers/all-MiniLM-L6-v2`. It neively takes a query, and performs a neirest neighbor search. 
+I created a vectorstore and used the following embedding model: `sentence-transformers/all-MiniLM-L6-v2`. It naively takes a query and performs a nearest neighbor search. 
 
 ### Chunk 1
 --------
@@ -107,7 +107,7 @@ Economic Sciences. Retrieved from https://www.nsf.gov/statistics/2017/nsf17310/s
 
 ### Results:
 
->For some reason, the closest 'neighbor' to the query "What are the key findings of this paper?" was the above which didn't extract any relevant chucnks from the source information. 
+>For some reason, the closest "neighbor" to the query "What are the key findings of this paper?" was the above, which didn't extract any relevant chunks from the source information. 
 
 ## HNSW with maximal marginal relevance 
 
@@ -158,13 +158,13 @@ College participants were asked what career they were in and if it was science r
 ## Retrieval Quality
 
 - Cosine similarity:
-  - Observed: Neirest Neighbor retreval not related to orignal query. 
+  - Observed: Nearest neighbor retrieval not related to the original query. 
   - Strengths: simple
   - Weaknesses: poor coherence. 
 
 - HNSW + MMR:
-  - Observed: results similiar to neive cosine similarity.
-  - Pro: Is a lot quicker than the nieve consine simularity implimentation. 
+  - Observed: results similar to naive cosine similarity.
+  - Pro: Is a lot quicker than the naive cosine similarity implementation. 
   - Strengths: Great for very large documents. 
 
 - Hybrid rerank:
@@ -182,9 +182,9 @@ College participants were asked what career they were in and if it was science r
 
 ## Conclusion
 
-When I initially performed a neierest neighbors search, agains the query "What are the key findings of this paper?" I questioned whether Cosine Simularity was a hoax! However upon further realization, the embedding model and design decisions around how the chunking occurs is retrieval‑augmented generation is a key step. 
+When I initially performed a nearest neighbors search against the query "What are the key findings of this paper?" I questioned whether cosine similarity was a hoax! However upon further realization, the embedding model and design decisions around how the chunking occurs in retrieval‑augmented generation are key steps. 
 
-Naive fixed‑length slicing produces many overlapping, fragmentary chunks, which increases noise and reduces retrieval quality. Ultaimately I found that diversity‑aware retrieval on top of naive chunks helps but doesn’t fix the core issue. Structure‑aware chunking, plus deduplication produces non‑redundant passages that better serve downstream question‑answering for long, complex texts.
+Naive fixed‑length slicing produces many overlapping, fragmentary chunks, which increases noise and reduces retrieval quality. Ultimately I found that diversity‑aware retrieval on top of naive chunks helps but doesn’t fix the core issue. Structure‑aware chunking, plus deduplication produces non‑redundant passages that better serve downstream question‑answering for long, complex texts.
 
       
     </script>

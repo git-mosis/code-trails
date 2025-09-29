@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Code Trails — Understanding cosine simulairty</title>
+    <title>Code Trails — Understanding cosine similarity</title>
     <meta name="description" content="Rendered blog post" />
     <style>
       :root { --bg:#ffffff; --fg:#030202; --muted:#6b7280; --divider:#e5e7eb; --maxw: 900px; }
@@ -28,7 +28,7 @@
     <div class="wrap">
       
       <header>
-        <h1 id="post-title">Understanding cosine simulairty</h1>
+        <h1 id="post-title">Understanding cosine similarity</h1>
       </header>
       <article id="post"></article>
     </div>
@@ -40,14 +40,14 @@
 
 #### Understanding Cosine Similarity in Text Analysis  
 
-At its core, when comparing a question to an answer, RAG represents each as a vector in a multi-dimensional space and then calculates the angle between those vectors using the cosine formula. This gives a numerical measure, in terms of degrees or cosine values, of how similar the question and answer it is based off of "distance." This is done using the `cosine simularity`. 
+At its core, when comparing a question to an answer, RAG represents each as a vector in a multi-dimensional space and then calculates the angle between those vectors using the cosine formula. This gives a numerical measure, in terms of degrees or cosine values, of how similar the question and answer are based on "distance." This is done using the `cosine similarity`. 
 
 #### What is Cosine Similarity?  
 
-What Cosine similarity does is measure how alike two pieces of text are by converting the text into numbers and placing them on a Cartesian graph. Rather than comparing the raw words, each grouped text is represented as a vector that captures a space location in the graph. You can see this in action via the video below. 
+What cosine similarity does is measure how alike two pieces of text are by converting the text into numbers and placing them on a Cartesian graph. Rather than comparing the raw words, each grouped text is represented as a vector that captures a space location in the graph. You can see this in action via the video below. 
 
 **YouTube link here:** [3Blue1Brown
- video on Cosine Similarity](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
+ video on cosine similarity](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
 
 [![Cosine Similarity Diagram](blog-images/cosine-simularity.png)](https://youtu.be/wjZofJX0v4M?si=DlnUTSL0H-IAx5pW&t=731)
 
@@ -133,7 +133,7 @@ To better capture semantics, pre-trained embeddings such as those from BERT or G
 - **BERT** uses a masking method, dropping words and learning to predict the missing tokens.  
 - **GPT** predicts the next token at each step as it reads left to right.  
 
-When the model predicts incorrectly (e.g., guessing *dog* instead of *den*), backpropagation adjusts the vectors. If *den* consistently appears in different contexts than *dog*, their embeddings are gradually pulled apart. Thus, after the model has been trained through next-token prediction and backpropagation, when checking cosine similarity, **would we then see that den and dog are no longer have a high score in simularity**.
+When the model predicts incorrectly (e.g., guessing *dog* instead of *den*), backpropagation adjusts the vectors. If *den* consistently appears in different contexts than *dog*, their embeddings are gradually pulled apart. Thus, after the model has been trained through next-token prediction and backpropagation, checking cosine similarity shows that *den* and *dog* no longer have a high similarity score.
 
 As a result, the embeddings capture semantic meaning, so cosine similarity between them reflects how closely words are related in context.  
 
